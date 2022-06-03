@@ -1,5 +1,10 @@
 # Best Compressed
 
+The Best Compressed website is a static website that provides information, advice and user-led suggestions for those who use compression garments.
+Users of this site are expected to be over 16 years old with a variety of different reasons for wearing these items.
+The site aims to help clarify some of the reasons people wear compression garments, what the different functionality of each item is
+and what are the best ways to look after the garments and your skin should you have no specific instructions from medical sources.
+
 <!--OVERVIEW OF PROJECT the image of the project on multiple devices can go here -->
 
 ## FEATURES
