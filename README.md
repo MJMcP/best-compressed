@@ -49,6 +49,8 @@ The live link can be found here ------
 <!-- REFERENCE ALL CONTENT, MEDIA AND EXTRA HELP SOURCES - TUTORIALS, PODCASTS, EVERYTHING -->
 
 ### Content
-    Instructions for basic structuring of README.MD for this project was sourced from the CI Love Running Project and (this recommended sample README view)[https://codeinstitute.s3.amazonaws.com/CSSEssentials/p1-readme.png]
+ Instructions for basic structuring of README.MD for the project was sourced from the CI Love Running Project and [this sample README](https://codeinstitute.s3.amazonaws.com/CSSEssentials/p1-readme.png)
+
+ [Wireframe construction tutorials](https://wireframestogo.com)
 <!-- include links to anything referenced, eg love running project-->      
 ### Media
