@@ -1,4 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: sans-serif;
-    background-color: #f5f5f5;
+    font-weight: 400px;
+    color: #1d2c2a;
+}
+
+/* header */
+h1, h2 {
+    font-family:inherit;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #ed1c24;
+}
+
+
+nav {
+    color: #ed1c24;
+}
+
+
+/*footer*/
+footer {
+    background-color: #207182;
+    color: #f5f5f5;
 }
