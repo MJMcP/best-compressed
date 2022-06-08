@@ -52,5 +52,8 @@ The live link can be found here ------
  Instructions for basic structuring of README.MD for the project was sourced from the CI Love Running Project and [this sample README](https://codeinstitute.s3.amazonaws.com/CSSEssentials/p1-readme.png)
 
  [Wireframe construction tutorials](https://wireframestogo.com)
-<!-- include links to anything referenced, eg love running project-->      
+<!-- include links to anything referenced, eg love running project--> 
+
+[Adobe Color Website](https://color.adobe.com/create/color-wheel) for assistance in creating a suitable color palete that was both pleasing to look at but assessible to those who are colorblind.
+
 ### Media
