@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Lora:ital,wght@1,500&family=Taviraj:wght@800&display=swap');
 
 * {
     margin: 0;
@@ -6,28 +7,65 @@
 }
 
 body {
-    font-family: sans-serif;
-    font-weight: 400px;
+    font-family: Heebo;
+    font-weight: 600px;
     color: #1d2c2a;
 }
 
 /* header */
 
-h1, h2 {
-    font-family:inherit;
-    text-transform: uppercase;
+h1 {
+    font-family: Taviraj;
+    text-transform: none;
+    letter-spacing: 0;
+    color: #ed1c24;
+}
+
+h2 {
+    font-family: Lora, Heebo, sans-serif;
+    font-weight: 600px;
     letter-spacing: 3px;
     color: #ed1c24;
 }
 
-
 nav {
+    font-family: Lora, sans-serif;
     color: #ed1c24;
+}
+
+#logo {
+    float: left;
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+#menu, #logo {
+    line-height: 60px;
+}
+
+#menu li{
+    float: right;
+    font-size: 20px;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#left-panel {
+
+}
+
+#right-panel {
+
+}
+
+#center-panel {
+    
 }
 
 
 /*footer*/
 footer {
+    height: fit-content;
     background-color: #207182;
     color: #f5f5f5;
 }
