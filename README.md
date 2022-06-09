@@ -56,4 +56,8 @@ The live link can be found here ------
 
 [Adobe Color Website](https://color.adobe.com/create/color-wheel) for assistance in creating a suitable color palete that was both pleasing to look at but assessible to those who are colorblind.
 
+[Google Font](https://fonts.google.com) to create font-family options
+
+[Fontjoy](http://fontjoy.com) to check font combination visuals
+
 ### Media
