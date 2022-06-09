@@ -63,6 +63,10 @@ nav {
     border-bottom: 1px solid #207182;
 }
 
+#introduction {
+    clear: both;
+}
+
 #left-panel {
 
 }
