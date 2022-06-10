@@ -64,4 +64,6 @@ The live link can be found here ------
 
 [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS) for coding syntax assistance.
 
+[CI Slack Channels](https://code-institute-room.slack.com) for solutions and general problemsolving
+
 ### Media
