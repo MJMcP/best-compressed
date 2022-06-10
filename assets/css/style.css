@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Lora:ital,wght@1,500&family=Taviraj:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -7,29 +7,29 @@
 }
 
 body {
-    font-family: Heebo;
-    font-weight: 600px;
+    font-family: Lato;
+    font-weight: 400px;
     color: #1d2c2a;
 }
 
 /* header */
 
 h1 {
-    font-family: Taviraj;
+    font-family: "Poppins Bold", sans-serif;
     text-transform: none;
     letter-spacing: 0;
     color: #ed1c24;
 }
 
 h2 {
-    font-family: Lora, Heebo, sans-serif;
+    font-family: Lato, sans-serif;
     font-weight: 600px;
     letter-spacing: 3px;
     color: #ed1c24;
 }
 
 nav {
-    font-family: Lora, sans-serif;
+    font-family: Lato, sans-serif;
     color: #ed1c24;
 }
 
@@ -85,4 +85,13 @@ footer {
     height: fit-content;
     background-color: #207182;
     color: #f5f5f5;
+}
+
+#disclaimer {
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    width: 33%;
+    text-align: justify;
+    margin-bottom: auto;
+    padding: 15px;
 }
