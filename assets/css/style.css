@@ -68,15 +68,17 @@ nav {
 }
 
 #left-panel {
+    clear: both;
 
 }
 
 #right-panel {
+    clear: both;
 
 }
 
 #center-panel {
-
+    clear: both;
 }
 
 
