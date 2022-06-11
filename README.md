@@ -1,17 +1,24 @@
 # Best Compressed
 
 The Best Compressed website is a static website that provides information, advice and user-led suggestions for those who use compression garments.
-Users of this site are expected to be over 16 years old with a variety of different reasons for wearing these items.
 The site aims to help clarify some of the reasons people wear compression garments, what the different functionality of each item is
 and what are the best ways to look after the garments and your skin should you have no specific instructions from certified sources.
+Users of this site are expected to be over 16 years old with a variety of different reasons for wearing these items.
+
 
 <!--OVERVIEW OF PROJECT the image of the project on multiple devices can go here -->
 
 ## FEATURES
 ### Existing Features
-<!-- do you want to reference the specific project files that implement them?  
+<!-- do yo u want to reference the specific project files that implement them?  
 Link to wireframes -->
-    nav bar
+-Navigation  Bar
+ - Situated at the top of the page, the page logo 'BEST COMPRESSED' will be shown on the left hand side of the sectionw with the interactive menu located on the right. Once the site adapts for smaller screen sizes, the logo will relocate to the center of screen with the menu options underneath it. 
+
+ -Landing Page Image
+  - 
+
+
     landing page image
     what are compression items section
     link with description to wear and care
