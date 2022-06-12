@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Dela+Gothic+One&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Lato;
+    font-family: Lato, sans-serif;
     font-weight: 400px;
     color: #1d2c2a;
 }
@@ -15,7 +15,7 @@ body {
 /* header */
 
 h1 {
-    font-family: Trirong, sans-serif;
+    font-family: "Dela Gothic One", sans-serif;
     text-transform: uppercase;
     letter-spacing: 0;
     color: #ed1c24;
