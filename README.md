@@ -13,7 +13,7 @@ Users of this site are expected to be over 16 years old with a variety of differ
 <!-- do yo u want to reference the specific project files that implement them?  
 Link to wireframes -->
 -Navigation  Bar
- - Situated at the top of the page, the page logo 'BEST COMPRESSED' will be shown on the left hand side of the sectionw with the interactive menu located on the right. Once the site adapts for smaller screen sizes, the logo will relocate to the center of screen with the menu options underneath it. 
+ - Situated at the top of the page, the page logo 'BEST COMPRESSED' will be shown on the left hand side of the section with the interactive menu located on the right, listing this HOME page as well as 3 addional pages. Once the site adapts for smaller screen sizes, the logo will relocate to the center of screen with the menu options underneath it. 
 
  -Landing Page Image
   - 
