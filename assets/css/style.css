@@ -70,6 +70,11 @@ nav {
     float: right;
 }
 
+#warning {
+    color: #207182;
+    font-weight: bolder;
+}
+
 #left-panel {
     clear: both;
     width: 33%;
@@ -110,6 +115,12 @@ nav {
    /*     margin: auto;
     text-align: left;*/
 } 
+
+.center-panel-heading{
+    width: 80%;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
 
 /*footer*/
 footer {
