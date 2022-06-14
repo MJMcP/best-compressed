@@ -10,7 +10,6 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 400px;
     color: #1d2c2a;
-    height: 80%;
 }
 
 /* header */
@@ -64,6 +63,7 @@ nav {
     border-bottom: 2px solid #207182;
 }
 
+/*Main Area*/
 #introduction {
     clear: both;
     width: 40%;
@@ -76,22 +76,25 @@ nav {
     font-weight: bolder;
 }
 
-#left-panel {
+.content {
     clear: both;
+    display: flexbox;
+    flex-direction: column;
+}
+
+#left-panel {
     width: 33%;
     padding: 10px;
     float: left;
 }
 
 #right-panel {
-    clear: both;
     width: 33%;
     padding: 10px;
     float: right;
 }
 
 #center-panel {
-    clear: both;
     width: 33%;
     margin: auto;
 }
@@ -120,15 +123,14 @@ nav {
 .center-panel-heading{
     width: 80%;
     line-height: 20px;
-    margin-bottom: 50px;
 }
 
 /*footer*/
 footer {
-    height: 20%;
+    height: 150px;
     background-color: #207182;
     color: #f5f5f5;
-    position: fixed;
+    position: relative;
 }
 
 #disclaimer {
@@ -139,3 +141,4 @@ footer {
     margin-bottom: auto;
     padding: 15px;
 }
+
