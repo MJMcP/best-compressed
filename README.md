@@ -13,18 +13,24 @@ Users of this site are expected to be over 16 years old with a variety of differ
 <!-- do yo u want to reference the specific project files that implement them?  
 Link to wireframes -->
 -Navigation  Bar
- - Situated at the top of the page, the page logo 'BEST COMPRESSED' will be shown on the left hand side of the section with the interactive menu located on the right, listing this HOME page as well as 3 addional pages. Once the site adapts for smaller screen sizes, the logo will relocate to the center of screen with the menu options underneath it. 
+  - Situated at the top of the page, the page logo 'BEST COMPRESSED' is shown on the left hand side with the page menu located on the right, listing this HOME page as well as 3 addional pages. 
+  Once the site adapts for smaller screen sizes, the page logo will relocate to the center of screen with the menu options underneath it. 
 
- -Landing Page Image
-  - 
+-Landing Page Image with Introduction text
+  -   This is a general intro to the function of the site and its aims going forward.
+  There is also a content disclaimer which reminds the user that the information here is a general guide and that the best advice comes from those trained and with full knowledge of their situation. A repetition of this will appear in the footer of each page.
 
-
-    landing page image
     what are compression items section
     link with description to wear and care
     link with description to tried and tested
-    the footer
-    Wear and Care page
+
+-Footer Section
+   - Fixed at the bottom of the screen, the footer contains the constant Disclaimer relating to the content of the site  on the left hand side.
+   There are also 3 links to relatable social media for the site's content. 
+   These three platforms were chosen for their generally understood UI which will aid the cross generational divide. 
+   There is a 'Date Updated' information line to reflect the current nature of the information provided.
+
+ Wear and Care page
     Tried and Tested page
 
 ### Features Left to Implement
@@ -49,8 +55,12 @@ Accessibility (lighthouse in dev tools)
 ## Deployment
 <!-- the description of how it was deployed to the hosting platform-->
 The site was deployed to Github pages using these steps:
+  1.  Open the relevent repository in my Github account.
+  2.  Navigate to the Github Pages tab via 'Settings'.
+  3.  Select 'Main' from the drop down menu in the Source section.
+  4.  Click 'Save' once you have confirmed that the branch is listed as Main and that the folder selected is the root folder.
 
-The live link can be found here ------
+The live link can be found here -[Best Compressed](https://mjmcp.github.io/best-compressed/)
 
 ## Credits
 <!-- REFERENCE ALL CONTENT, MEDIA AND EXTRA HELP SOURCES - TUTORIALS, PODCASTS, EVERYTHING -->
