@@ -10,8 +10,9 @@ Users of this site are expected to be over 16 years old with a variety of differ
 
 ## FEATURES
 ### Existing Features
-<!-- do yo u want to reference the specific project files that implement them?  
-Link to wireframes -->
+<!-- do yo u want to reference the specific project files that implement them? -->  
+Link to [wireframes](https://balsamiq.cloud/sggsq12/pfyavp4/rCDA5?f=N4IgUiBcCMA0IDkpxAYWfAMhkAhHAsjgFo4DSUA2gLoC%2BQA%3D) with planning note
+
 -Navigation  Bar
   - Situated at the top of the page, the page logo 'BEST COMPRESSED' is shown on the left hand side with the page menu located on the right, listing this HOME page as well as 3 addional pages. 
   Once the site adapts for smaller screen sizes, the page logo will relocate to the center of screen with the menu options underneath it. 
