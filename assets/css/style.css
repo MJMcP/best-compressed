@@ -103,7 +103,7 @@ nav {
 
 .left-panel-heading {
     width: 80%;
-    float: right;
+    float: left;
     line-height: 20px;
     margin-bottom: 50px;
     text-align: left;
@@ -111,7 +111,7 @@ nav {
 
 .right-panel-heading {
     width: 80%;
-    float: left;
+    float: right;
     line-height: 20px;
     margin-bottom: 50px;
     text-align: left;
@@ -132,6 +132,12 @@ footer {
     padding-bottom: 10 px;
 }
 
+#social-created {
+    display: block;
+    flex: content;
+    flex-direction: column;
+}
+
 #disclaimer {
     font-family: Lato, sans-serif;
     font-size: 15px;
@@ -140,4 +146,12 @@ footer {
     margin-bottom: auto;
     padding: 15px;
 }
-
+    
+.social-networks{
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    width: 33%;
+    text-align: right;
+    margin-bottom: auto;
+    padding: 15px;
+}
