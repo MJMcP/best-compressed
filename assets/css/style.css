@@ -83,6 +83,12 @@ nav {
     margin-bottom: 50px;
 }
 
+.section-name{
+    clear: both;
+    text-align: left;
+    margin-left: 5% ;
+}
+
 #left-panel {
     width: 30%;
     padding: 10px;
