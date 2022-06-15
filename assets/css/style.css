@@ -83,6 +83,10 @@ nav {
     font-weight: bolder;
 }
 
+#main-content {
+    height: 600px;
+}
+
 .content {
     clear: both;
     display: block;
@@ -104,21 +108,20 @@ nav {
 }
 
 #left-panel {
+    padding-top: 30px;
     width: 30%;
-    padding: 5px;
     float: left;
 }
 
 #right-panel {
+    padding-top: 5px;
     width: 30%;
-    padding: 0;
     float: right;
 }
 
 #center-panel {
-    width: 33%;
+    width: 30%;
     margin: auto;
-    padding: 0;
 }
 
 
@@ -141,6 +144,7 @@ nav {
 .center-panel-heading {
     width: 90%;
     line-height: 20px;
+    margin: 0, 20px;
     text-align: left;
 }
 
