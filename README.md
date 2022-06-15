@@ -83,8 +83,9 @@ The live link can be found here -[Best Compressed](https://mjmcp.github.io/best-
 
 [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS) for coding syntax assistance.
 
-[CI Slack Channels](https://code-institute-room.slack.com) for solutions and general problem solving.
+[CI Slack Channels](https://code-institute-room.slack.com) for solution sourcing and general problem solving.
 
 [StackOverflow](https://stackoverflow.com) for solutions and general problem solving.
 
+[CSS-Tricks](https://css-tricks.com/couple-takes-sticky-footer/) for assistance on footer issue
 ### Media
