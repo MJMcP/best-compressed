@@ -69,6 +69,7 @@ nav {
 }
 
 /*Main Area*/
+
 #introduction {
     clear: both;
     width: 40%;
@@ -99,6 +100,7 @@ nav {
 #columns {
     clear: both;
     padding-top: 15px;
+    width: 95%;
 }
 
 #left-panel {
@@ -114,13 +116,13 @@ nav {
 }
 
 #center-panel {
-    width: 30%;
+    width: 33%;
     margin: auto;
 }
 
 
 .left-panel-heading {
-    width: 80%;
+    width: 90%;
     float: right;
     line-height: 20px;
     /*margin-bottom: 50px;*/
@@ -128,7 +130,7 @@ nav {
 }
 
 .right-panel-heading {
-    width: 80%;
+    width: 90%;
     float: left;
     line-height: 20px;
     /*margin-bottom: 50px;*/
@@ -136,7 +138,7 @@ nav {
 } 
 
 .center-panel-heading{
-    width: 80%;
+    width: 90%;
     line-height: 20px;
     text-align: left;
 }
