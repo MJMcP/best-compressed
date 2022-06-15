@@ -44,6 +44,10 @@ nav {
     line-height: 60px;
 }
 
+#menu {
+    margin-right: 60px;
+}
+
 #menu li{
     float: right;
     font-size: 20px;
@@ -70,6 +74,7 @@ nav {
     width: 40%;
     padding: 20px;
     float: right;
+    margin-right: 50px;
 }
 
 #warning {
