@@ -19,8 +19,8 @@ Link to [wireframes](https://balsamiq.cloud/sggsq12/pfyavp4/rCDA5?f=N4IgUiBcCMA0
   Once the site adapts for smaller screen sizes, the page logo will relocate to the center of screen with the menu options underneath it. 
 
 -Landing Page Image with Introduction text
-  -   This is a general intro to the function of the site and its aims going forward.
-  There is also a content disclaimer which reminds the user that the information here is a general guide and that the best advice comes from those trained and with full knowledge of their situation. A repetition of this will appear in the footer of each page.
+  -   This is a general intro to the ethos of the site and its aims going forward.
+  There is also a content disclaimer which reminds the user that the information here is a general guide and that the best advice comes from those trained and who have full knowledge of their individual situation. A repetition of this will appear in the footer of each page.
 
     what are compression items section
     link with description to wear and care
