@@ -105,39 +105,40 @@ nav {
 
 #left-panel {
     width: 30%;
-    padding: 10px;
+    padding: 5px;
     float: left;
 }
 
 #right-panel {
     width: 30%;
-    padding: 10px;
+    padding: 0;
     float: right;
 }
 
 #center-panel {
     width: 33%;
     margin: auto;
+    padding: 0;
 }
 
 
 .left-panel-heading {
-    width: 90%;
+    width: 80%;
     float: right;
     line-height: 20px;
-    /*margin-bottom: 50px;*/
+    margin: 0, 20px;
     text-align: left;
 }
 
 .right-panel-heading {
-    width: 90%;
+    width: 80%;
     float: left;
     line-height: 20px;
-    /*margin-bottom: 50px;*/
+    margin: 0, 20px;
     text-align: left;
 } 
 
-.center-panel-heading{
+.center-panel-heading {
     width: 90%;
     line-height: 20px;
     text-align: left;
