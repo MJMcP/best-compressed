@@ -88,10 +88,16 @@ nav {
     margin-bottom: 50px;
 }
 
-.section-name{
+.section-name {
     clear: both;
     text-align: left;
     margin-left: 5% ;
+    padding-top: 15px; 
+}
+
+#columns {
+    clear: both;
+    padding-top: 15px;
 }
 
 #left-panel {
@@ -116,7 +122,7 @@ nav {
     width: 80%;
     float: right;
     line-height: 20px;
-    margin-bottom: 50px;
+    /*margin-bottom: 50px;*/
     text-align: left;
 }
 
@@ -124,7 +130,7 @@ nav {
     width: 80%;
     float: left;
     line-height: 20px;
-    margin-bottom: 50px;
+    /*margin-bottom: 50px;*/
     text-align: left;
 } 
 
