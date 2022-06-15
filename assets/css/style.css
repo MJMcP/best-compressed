@@ -130,7 +130,7 @@ nav {
     width: 80%;
     float: left;
     line-height: 20px;
-    /*margin-bottom: 50px;*/
+    margin-bottom: 50px;
     text-align: left;
 } 
 
@@ -147,6 +147,11 @@ footer {
     position: absolute;
     padding-top: 10x;
     padding-bottom: 0px;
+}
+
+.footer,
+.push {
+  height: 150px;
 }
 
 #social-created {
