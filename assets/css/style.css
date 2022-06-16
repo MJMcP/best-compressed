@@ -86,7 +86,11 @@ nav {
 }
 
 #container {
-    height: 70vh;
+    clear: both;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+/*    height: 70vh
+*/  margin-bottom: 2rem;
 }
 
 .content {
@@ -105,26 +109,22 @@ nav {
 
 #columns {
     clear: both;
-    width: 100%;
+    width: 100%; 
 }
 
 #left-panel {
     padding-top: 3rem;
-    width: 31%;
     float: left;
 }
 
 #right-panel {
-    width: 31%;
     float: left;
-    
+    padding-top: 3rem;
 }
 
 #center-panel {
-    width: 31%;
     float: left;
     padding-left: 3rem;
-    margin: auto;
 }
 
 
