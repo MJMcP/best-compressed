@@ -71,6 +71,13 @@ nav {
 
 /*Main Area*/
 
+
+.hero {
+    float: left;
+    margin-left: 1rem;
+    
+}
+
 #introduction {
     clear: both;
     width: 40%;
@@ -88,9 +95,9 @@ nav {
 #container {
     clear: both;
     display: grid;
-    grid-template-columns: repeat(3,33%);
-/*    height: 70vh
-*/  margin-bottom: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-bottom: 2rem;
 }
 
 .content {
@@ -107,24 +114,19 @@ nav {
     padding-top: 1rem; 
 }
 
-#columns {
-    clear: both;
-    width: 100%; 
-}
-
 #left-panel {
     padding-top: 3rem;
     float: left;
 }
 
 #right-panel {
-    float: left;
     padding-top: 3rem;
+    float: left;
 }
 
 #center-panel {
-    float: left;
     padding-left: 3rem;
+    float: left;
 }
 
 
