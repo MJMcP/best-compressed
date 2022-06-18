@@ -71,25 +71,36 @@ nav {
 
 /*Main Area*/
 
+.section-name {
+    clear: both;
+    text-align: left;
+    margin-left: 5% ;
+    padding-top: 1rem; 
+}
+
+.section-container {
+    clear: both;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 2rem,0,0,0;
+}
 
 .hero {
     float: left;
-    margin-left: 1rem;
-    
+    margin-left: 4.5rem;    
 }
 
 .credit {
-    text-align: right;
+    text-align:inherit;
     font-size: 14px;
 }
 
 #introduction {
     clear: both;
-    width: 40%;
     padding: 1rem;
     float: right;
     margin-right: 2.5rem;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 #warning {
@@ -97,7 +108,7 @@ nav {
     font-weight: bolder;
 }
 
-#container {
+.container {
     clear: both;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -110,13 +121,6 @@ nav {
     display: block;
     margin-bottom: 3rem;
     margin-right: 2%;
-}
-
-.section-name {
-    clear: both;
-    text-align: left;
-    margin-left: 5% ;
-    padding-top: 1rem; 
 }
 
 #left-panel {
@@ -162,7 +166,7 @@ nav {
 footer {
     background-color: #207182;
     color: #f5f5f5;
-    position: absolute;
+    position: relative;
     padding-top: 1rem;
     padding-bottom: 0px;
 }
