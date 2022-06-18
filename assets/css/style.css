@@ -113,27 +113,28 @@ nav {
     display: grid;
     grid-template-columns: repeat(3, 1fr);   
     margin-bottom: 2rem, 0, 0, 0;
+    padding-left: 4.5rem;
 }
 
 .content {
     clear: both;
     display: block;
     margin-bottom: 3rem;
-    margin-right: 2%;
 }
 
 #left-panel {
-    padding-top: 3rem;
+    clear:both;
+    padding-right: 3rem;
     float: left;
 }
 
 #right-panel {
-    padding-top: 3rem;
+    /*padding-top: 3rem;*/
     float: left;
 }
 
 #center-panel {
-    padding-left: 3rem;
+    padding-left: 2rem;
     float: left;
 }
 
@@ -172,7 +173,7 @@ footer {
 
 .footer,
 .push {
-  height: 10px;
+  height: 150px;
 }
 
 #social-created {
