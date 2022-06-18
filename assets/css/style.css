@@ -111,9 +111,8 @@ nav {
 .container {
     clear: both;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    margin-bottom: 2rem;
+    grid-template-columns: repeat(3, 1fr);   
+    margin-bottom: 2rem, 0, 0, 0;
 }
 
 .content {
