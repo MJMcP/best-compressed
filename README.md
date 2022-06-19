@@ -114,4 +114,4 @@ The live link can be found here -[Best Compressed](https://mjmcp.github.io/best-
 ### Media
 All images supplied under licence from [Shutterstock](https://www.shutterstock.com/catalog/collections/2862916629887452844-93837546d8e92ba5d695b8ceddbb1b5c0767be2e681b4342ce2a3ffe2adf42be) 
 
-[How to Care for Compression Socks video](https://www.youtube.com/watch?v=fXx3Pq-Xg_g&list=PLH0_voDzIEWp1eDk1hvXcezmqelSv9Vbo&index=1) sourced from YouTube.com, created by [The Sunny Edge](https://www.youtube.com/channel/UC56v3cPLfJaQgA1KTF5AGHQ/about)
+[How to Care for Compression Socks video](https://www.youtube.com/watch?v=fXx3Pq-Xg_g&list=PLH0_voDzIEWp1eDk1hvXcezmqelSv9Vbo&index=1) sourced from YouTube.com, created by [The Sunny Edge](https://www.youtube.com/channel/UC56v3cPLfJaQgA1KTF5AGHQ/about).
