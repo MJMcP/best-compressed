@@ -45,6 +45,10 @@ nav {
 .active {
     border-bottom: 2px solid #ed1c24;
 }
+
+em {
+    color: #207182;
+}
 #menu, #logo {
     line-height: 60px;
 }
