@@ -50,6 +50,11 @@ em {
     color: #207182;
     font-weight: 600;
 }
+
+a {
+    font-family: Lato, sans-serif;
+}
+
 #menu, #logo {
     line-height: 60px;
 }
@@ -110,6 +115,23 @@ em {
     float: right;
     margin-right: 2.5rem;
     font-size: 20px;
+}
+ 
+#introduction li {
+    list-style-type: none;
+}
+
+#introduction  a {
+    text-decoration: none;
+    color:#ed1c24
+}
+
+#introduction a:hover {
+   color: #989dca;
+}
+
+#introduction a:active {
+    color: #207182;
 }
 
 #warning {
