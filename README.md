@@ -68,6 +68,12 @@ possible link page to reputable sellers of accessories once self produced conten
 <!-- go over all the projects features, what they were supposed to do and how they have worked.
 how does the project look in the different browsers and screen sizes
 mention any issues you have had - interesting bugs -->
+In the building of the site, the major issues I had to deal with involved the following:
+
+- Column layout and image sizing to format
+
+- Video Embedding   
+  - When I first attempted to insert a link for the youtube videos that I had selected, I was immediately shown an error message for where the video should appear. My first source of assistance was the Slack channels of CI where I searched for "embed youtube link into html". One member suggested the video embed generator created by Codegena but warned of issues may occur in validation later. I decided to use the generator for the moment as they work for MVP and I hope to correct before official launch of site on June 23rd 2022. 
 
 ### Validator Testing
 <!-- the reports back from these validators -->
