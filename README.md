@@ -109,7 +109,9 @@ The live link can be found here -[Best Compressed](https://mjmcp.github.io/best-
 
 [StackOverflow](https://stackoverflow.com) for solutions and general problem solving.
 
-[CSS-Tricks](https://css-tricks.com/couple-takes-sticky-footer/) for assistance on footer issue
+[CSS-Tricks](https://css-tricks.com/couple-takes-sticky-footer/) for assistance on footer issue.
+
+[W3](https://www.w3schools.com/howto/howto_css_responsive_form.asp) for aid in creating responsive form element.
 
 ### Media
 All images supplied under licence from [Shutterstock](https://www.shutterstock.com/catalog/collections/2862916629887452844-93837546d8e92ba5d695b8ceddbb1b5c0767be2e681b4342ce2a3ffe2adf42be) 
