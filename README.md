@@ -48,7 +48,7 @@ Link to [wireframes](https://balsamiq.cloud/sggsq12/pfyavp4/rCDA5?f=N4IgUiBcCMA0
   - The disclaimer for the intent of the site can be seen in the footer along with the social media icons.
 
 -Wear and Care page
-  - Inheriting the layout of the Landing Page, the information presented here is predominantly video based instruction videos for the main areas of consideration : the washing and upkeep of the garments themselves and the protection of the skin layer where appropriate.
+  - Inheriting the layout of the Landing Page, the information presented here is predominantly video based instruction videos for the main areas of consideration : the washing and upkeep of the garments themselves and the protection of the skin layer where appropriate. Each video will load with controls and muted for optimal user experience.
   - The disclaimer for the intent of the site can be seen in the footer along with the social media icons.
 
 -Tried and Tested page
