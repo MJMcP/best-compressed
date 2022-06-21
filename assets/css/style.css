@@ -154,17 +154,17 @@ hr {
 }
 
 #left-panel {
-    padding-right: 1fr;
+    padding-right: 4.5rem;
     float: left;
 }
 
 #right-panel {
-    padding-left: 1fr;
+    padding-left: 1rem;
     float: left;
 }
 
 #center-panel {
-    padding-left: 1fr;
+    padding-left: 1rem;
     float: left;
 }
 
