@@ -1,24 +1,71 @@
-# Best Compressed
+# <em>Best Compressed</em>
 
-The Best Compressed website is a static website that provides information, advice and user-led suggestions for those who use compression garments. It consists of 3 formatted pages consisting of a hero image, a main description section and 3 subsequent column sections and an additional 4 page with a form box for the collection of data in the aim of creating the database of personal advice from experience compression wearers. It is initially conceived as a public information resource with an option for adaptation depending on user feedback.
+The Best Compressed website is a public information website that provides advice and user-led suggestions for those who use compression garments. Its aim is to present the information about the various types of compression garments available and to clear up some of the confusion about the purpose of one type over another.
 
-## UX
+The live site can be accessed through this [link](https://www.github.io/best-compressed/index.html).
+
+<!--RESPONSIVE IMAGE OF SITE HERE-->
+
+# Contents
+- [User Experience UX](#user-experience-ux)
+  - [User Stories](#user-stories)
+  - [Wireframes](#wireframes)
+  - [Site Structure](#site-structure)
+  - Design Choices
+  - Typography
+  - Colour Scheme
+- Features
+  - Home
+    - Navigation menu
+    - Introduction to section
+    - Sub-Sections
+    - Footer
+    - Disclaimer
+    - Social Media and Update statue
+  - What is a Compression Garment
+  - Wear & Care
+  - Tried & Tested
+    - Tried & Tested Entry form
+    - Form Confirmation
+- Future Features
+- Technologies Used
+- Testing
+- Deployment
+- Credits
+  - Content
+  - Media
+-Acknowledgement
+
+# User Experience UX
+
 The ideal user of this site will be:
   - over 16 years old.
   - a novice wearer of the garments used in compression therapy.
-  
-The user may also fall into one of these catagories:
-  - someone who may feel overwhelmed by the reasons for needing compression therapy eg. lymphoedema, DVT, burns.
-  - someone who is looking for simple information about how to proceed in daily upkeep of the garments.
-  - someone who is a wearer of light compression items and has noticed some slight changes to their skin.
-  - a wearer looking for advice from those with experience using a different styles of compression item e.g. socks to tights.
 
-This site aims to:
-  - help clarify some of the reasons why people wear compression garments. 
-  - provide some simple explanations as to why certain compression items are used over others in terms of purpose.
-  - provide insight into the best ways to look after the garments and your skin should you have no specific instructions from certified sources.
- 
+ Back to [Contents](#contents)
+
+## User Stories  
+- As a user, I can find the information I seek quickly.
+- As a user, I can understand the information as it is presented to me.
+- As a user, I can clearly make out the links to each page.
+- As a user, I can understand the information in the videos.
+- As a user, I can leave a message through a provided portal.
+
+ Back to [Contents](#contents)
+
+## Wireframes
+
+The wireframes for this site were produced and are hosted on the site [Balsamiq](https://balsamiq.cloud/sggsq12/pfyavp4/rCDA5?f=N4IgUiBcCMA0IDkpxAYWfAMhkAhHAsjgFo4DSUA2gLoC%2BQA%3D). Please click link to view them and the planning notes. 
+
+ Back to [Contents](#contents)
+
+## Site Structure
+
  The style of this site will be simple and uncomplicated due in consideration of the large age scope and possible divides in user prowess with internet technology. Any possible and futher design works will take the computer user generational divide into consideration. 
+ 
+ It consists of 3 formatted pages consisting of a hero image, a main description section and 3 subsequent column sections and an additional 4th page with a form box for the collection of data in the aim of creating the database of personal advice from experience compression wearers. It is initially conceived as a public information resource with an option for adaptation depending on user feedback.
+
+ Back to [Contents](#contents)
 
 <!--OVERVIEW OF PROJECT the image of the project on multiple devices can go here -->
 
@@ -26,7 +73,7 @@ This site aims to:
 ### Existing Features
 <!-- do yo u want to reference the specific project files that implement them? -->  
 
-Link to [wireframes](https://balsamiq.cloud/sggsq12/pfyavp4/rCDA5?f=N4IgUiBcCMA0IDkpxAYWfAMhkAhHAsjgFo4DSUA2gLoC%2BQA%3D) with planning note
+
 
 -Navigation  Bar
   - Situated at the top of the page, the page logo 'BEST COMPRESSED' is shown on the left hand side with the page menu located on the right, listing this HOME page as well as 3 addional pages. 
@@ -120,7 +167,7 @@ The live link can be found here -[Best Compressed](https://mjmcp.github.io/best-
 [W3](https://www.w3schools.com/howto/howto_css_responsive_form.asp) for aid in creating responsive form element.
 
 ### Media
-All images supplied under licence from [Shutterstock](https://www.shutterstock.com/catalog/collections/2862916629887452844-93837546d8e92ba5d695b8ceddbb1b5c0767be2e681b4342ce2a3ffe2adf42be) from the following content creators : Petia_is, Jacob Lund, Andrey_Popov, Nikolas Gregor, Bokehboo Studios, Yuliya Yesina,
+All images supplied under licence from [Shutterstock](https://www.shutterstock.com/catalog/collections/2862916629887452844-93837546d8e92ba5d695b8ceddbb1b5c0767be2e681b4342ce2a3ffe2adf42be) from the following content creators : Petia_is, Jacob Lund, Andrey_Popov, Nikolas Gregor, Bokehboo Studios and Yuliya Yesina.
 
 [How to Care for Compression Socks video](https://www.youtube.com/watch?v=fXx3Pq-Xg_g&list=PLH0_voDzIEWp1eDk1hvXcezmqelSv9Vbo&index=1) sourced from YouTube.com, created by [The Sunny Edge](https://www.youtube.com/channel/UC56v3cPLfJaQgA1KTF5AGHQ/about).
 
