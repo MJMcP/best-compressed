@@ -34,7 +34,7 @@ The live site can be accessed through this [link](https://www.github.io/best-com
 - Credits
   - Content
   - Media
--Acknowledgement
+- Acknowledgement
 
 # User Experience UX
 
