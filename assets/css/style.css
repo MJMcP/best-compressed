@@ -329,26 +329,40 @@ footer {
     text-align: match-parent;
 }
 
+/* Media queries */
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-/*@media screen and (max-width: 900px) {
-    #left-panel {
+/* For larger to medium screens size from 1200px wide and down */
+/*@media screen and (max-width: 1200px) {
+    #menu {
+        float: left;
+        padding: 0;
+    }
+
+    #introduction > p {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #left-panel, #right-panel {
         width: 100%;
-        margin-top: 0;
-        text-align: start;
-    } 
-    
-    #right-panel {
-      width: 100%;
-      margin-top: 0;
+        float: left;
+        padding: 0;
     }
 
     #center-panel {
+        clear: both;
         width: 100%;
-        margin-top: 0;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
     }
 }*/
 
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .col-25 {
         width: 100%;
