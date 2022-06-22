@@ -89,6 +89,13 @@ em {
     padding-top: 1rem; 
 }
 
+.tysection-name {
+    clear:both;
+    text-align: center;
+    margin: auto;
+    padding-top: 4rem;
+    font-size: larger;
+}
 .section-container {
     clear: both;
     display: grid;
@@ -242,6 +249,12 @@ input[type=text], select, textarea{
     cursor: pointer;
     float: right;
   }
+
+.submit-button {
+    clear:both;
+    padding-top: 4rem;
+}
+
   
   /* Style the container */
   .container {
