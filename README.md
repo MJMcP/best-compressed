@@ -75,7 +75,9 @@ The fonts chosen for this project were 'Kavoon' for the headings (h1, h2 etc) an
 somewhat comdensed in the manner of the letter forms. It was chosen to play on the topic of the site until a more formal logo can be designed.
   - ABeeZee is, according to its design Anja Meiners, "a children's learning font. Open, friendly and simple, the definite shapes support the process of learning to read and write." It maintains a clean distinction in letter form as the screen sizes adjust.
 
-Back to [Contents](#contents)
+ ![Fontjoy pairing tool](/assets/readme_images/text-pair-kavoon-abeezee.jpg) 
+
+[Back to Contents](#contents)
 
 ### Colour Scheme
 
