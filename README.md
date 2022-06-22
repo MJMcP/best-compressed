@@ -28,13 +28,13 @@ The live site can be accessed through this [link](https://www.github.io/best-com
     - Tried & Tested Entry form
     - Form Confirmation
 - Future Features
-- Technologies Used
+- Technologies Used(#technologies-used)
 - Testing
 - Deployment
 - Credits
   - Content
   - Media
-- Acknowledgement
+- Acknowledgements
 
 # User Experience UX
 
@@ -140,6 +140,18 @@ This site was initially conceived as a public information resource with an optio
 - Self produced media content 
 - interview pages with individuals who use and wear garments
 possible link page to reputable sellers of accessories once self produced content is in place-->
+
+[Back to Contents](#contents)
+
+## Technologies Used
+
+In the creation of this project I have used the following
+
+- Balsamiq to create the wireframes.
+- HTML5 to provide the content and structure for the website.
+- CSS to provide the styling.
+- Github to host and edit the website.
+- Gitpod to deploy the website.
 
 [Back to Contents](#contents)
 
