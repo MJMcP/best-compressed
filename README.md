@@ -124,7 +124,7 @@ mention any issues you have had - interesting bugs -->
 In the building of the site, the major issues I had to deal with involved the following :
 
 - Weak Design Elements
-  - When I first designed the layout, I wanted to keep it clean and simplistic so that it didn't overwhelm the sensibilities of any of the users. However, the combination of 'Dela Gothic One' and 'Lora' proved to be less impactful that I thought. At the beginning of the testing phase, I was advised to rethink this approach and so the fonts "" and "" were chosen to replace the original choices. 
+  - When I first designed the layout, I wanted to keep it clean and simplistic so that it didn't overwhelm the sensibilities of any of the users. However, the combination of 'Dela Gothic One' and 'Lora' proved to be less impactful that I thought. At the beginning of the testing phase, I was advised to rethink this approach and so the fonts "Kavoon" and "ABeeZee" were chosen to replace the original choices. 
 
 - Column layout and image sizing to format
 
@@ -152,18 +152,19 @@ The live link can be found here -[Best Compressed](https://mjmcp.github.io/best-
 <!-- REFERENCE ALL CONTENT, MEDIA AND EXTRA HELP SOURCES - TUTORIALS, PODCASTS, EVERYTHING -->
 
 ### Content
- Instructions for basic structuring of README.MD for the project was sourced from the CI Love Running Project and these following samples: [README suplied by CI](https://codeinstitute.s3.amazonaws.com/CSSEssentials/p1-readme.png) and [README Wawas Wood](https://github.com/EwanColquhoun/wawaswoods/blob/master/README.md)
+ - I used [Fontjoy](http://fontjoy.com) to check font combination visuals.
+ - I used [Google Font](https://fonts.google.com) to create font-family import link.
+ - I also used [Leadpages](https://leadpages.com/blog.best-google-fonts/) and [1001freefonts](https://www.1001freefonts.com/kfonts21.php) for inspiration on font choices.
+ - I used the following README.md files as guidelines as to how to create a comprehensive document: 
+    - README from the CI Love Running Project which was provided as a .pdf through Slack communication. 
+    - [README suplied by CI](https://codeinstitute.s3.amazonaws.com/CSSEssentials/p1-readme.png) 
+    - [README Wawas Wood](https://github.com/EwanColquhoun/wawaswoods/blob/master/README.md)
 
- [Wireframe construction tutorials](https://wireframestogo.com)
 <!-- include links to anything referenced, eg love running project--> 
 
 [Adobe Color Website](https://color.adobe.com/create/color-wheel) for assistance in creating a suitable color palete that was both pleasing to look at but assessible to those who are colorblind.
 
-[Google Font](https://fonts.google.com) to create font-family options.
 
-[Fontjoy](http://fontjoy.com) to check font combination visuals.
-
-[Leadpages](https://leadpages.com/blog.best-google-fonts/) for inspiration on font choices.
 
 [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS) for coding syntax assistance.
 
@@ -176,7 +177,7 @@ The live link can be found here -[Best Compressed](https://mjmcp.github.io/best-
 [W3](https://www.w3schools.com/howto/howto_css_responsive_form.asp) for aid in creating responsive form element.
 
 ## Media
-All images supplied under licence from [Shutterstock](https://www.shutterstock.com/catalog/collections/2862916629887452844-93837546d8e92ba5d695b8ceddbb1b5c0767be2e681b4342ce2a3ffe2adf42be) from the following content creators: Petia_is, Jacob Lund, Andrey_Popov, Nikolas Gregor, Bokehboo Studios and Yuliya Yesina.
+All images are supplied under licence from [Shutterstock](https://www.shutterstock.com/catalog/collections/2862916629887452844-93837546d8e92ba5d695b8ceddbb1b5c0767be2e681b4342ce2a3ffe2adf42be) from the following content creators: Petia_is, Jacob Lund, Andrey_Popov, Nikolas Gregor, Bokehboo Studios and Yuliya Yesina.
 
 The video [How to Care for Compression Socks video](https://www.youtube.com/watch?v=fXx3Pq-Xg_g&list=PLH0_voDzIEWp1eDk1hvXcezmqelSv9Vbo&index=1) was sourced from YouTube.com, created by [The Sunny Edge](https://www.youtube.com/channel/UC56v3cPLfJaQgA1KTF5AGHQ/about).
 
