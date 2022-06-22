@@ -413,7 +413,10 @@ footer {
         font-weight: lighter;
         color: #ed1c24;
     }
-
+   
+    nav {
+        float: left;
+    }
 
     #logo {
         float: none;
@@ -427,7 +430,7 @@ footer {
         font-size: 1vww;
         line-height: 40px;
         width: 100%;
-        float: none;
+        float: left;
     }
     
     #menu li {
