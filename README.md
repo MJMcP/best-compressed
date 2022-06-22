@@ -11,9 +11,9 @@ The live site can be accessed through this [link](https://www.github.io/best-com
   - [User Stories](#user-stories)
   - [Wireframes](#wireframes)
   - [Site Structure](#site-structure)
-  - Design Choices
-  - Typography
-  - Colour Scheme
+  - [Design Choices](#design-choices)
+    - Typography
+    - Colour Scheme
 - Features
   - Home
     - Navigation menu
@@ -67,6 +67,12 @@ The wireframes for this site were produced and are hosted on the site [Balsamiq]
 
  Back to [Contents](#contents)
 
+## Design Choices
+
+### Typography
+The fonts chosen for this project were 'Dela Gothic One' for the headings (h1, h2 etc) and 'Lora' for the body text, however 
+
+
 <!--OVERVIEW OF PROJECT the image of the project on multiple devices can go here -->
 
 ## FEATURES
@@ -115,8 +121,11 @@ possible link page to reputable sellers of accessories once self produced conten
 <!-- go over all the projects features, what they were supposed to do and how they have worked.
 how does the project look in the different browsers and screen sizes
 mention any issues you have had - interesting bugs -->
-In the building of the site, the major issues I had to deal with involved the following:
+In the building of the site, the major issues I had to deal with involved the following :
 
+- Weak Design Elements
+  - When I first designed the layout, I wanted to keep it clean and simplistic so that it didn't overwhelm the sensibilities of any of the users. However, the combination of 'Dela Gothic One' and 'Lora' proved to be less impactful that I thought. 
+  At the beginning of the testing phase, I was advised to rethink this approach and so the fonts "" and "" were chosen to replace the original choices. 
 - Column layout and image sizing to format
 
 - Video Embedding   
