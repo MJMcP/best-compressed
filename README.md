@@ -70,7 +70,7 @@ The wireframes for this site were produced and are hosted on the site [Balsamiq]
 ## Design Choices
 
 ### Typography
-The fonts chosen for this project were 'Dela Gothic One' for the headings (h1, h2 etc) and 'Lora' for the body text, however 
+The fonts chosen for this project were 'Dela Gothic One' for the headings (h1, h2 etc) and 'Lora' for the body text,
 
 
 <!--OVERVIEW OF PROJECT the image of the project on multiple devices can go here -->
@@ -126,7 +126,7 @@ In the building of the site, the major issues I had to deal with involved the fo
 - Weak Design Elements
   - When I first designed the layout, I wanted to keep it clean and simplistic so that it didn't overwhelm the sensibilities of any of the users. However, the combination of 'Dela Gothic One' and 'Lora' proved to be less impactful that I thought. 
   At the beginning of the testing phase, I was advised to rethink this approach and so the fonts "" and "" were chosen to replace the original choices. 
-- Column layout and image sizing to format
+  - Column layout and image sizing to format
 
 - Video Embedding   
   - When I first attempted to insert a link for the youtube videos that I had selected, I was immediately shown an error message for where the video should appear. My first source of assistance was the Slack channels of CI where I searched for "embed youtube link into html". One member suggested the video embed generator created by Codegena but warned of issues may occur in validation later. I decided to use the generator for the moment as they work for MVP and I hope to correct before official launch of site on June 23rd 2022. 

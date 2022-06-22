@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&family=ABeeZee&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Lora, sans-serif;
+    font-family: ABeeZee, sans-serif;
     font-weight: 400;
     color: #1d2c2a;
     background-color: #f5f5f5;
@@ -17,23 +17,23 @@ body {
 /* heading */
 
 h1 {
-    font-family: "Dela Gothic One", sans-serif;
+    font-family: Kavoon, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 0;
+    letter-spacing: 6px;
     color: #ed1c24;
 }
 
 h2 {
-    font-family: Lora, sans-serif;
-    font-weight: 600;
-    letter-spacing: 1px;
+    font-family: Kavoon, sans-serif;
+    letter-spacing: 4px;
     line-height: 1.6rem;
+    font-weight: lighter;
     color: #ed1c24;
 }
 
 /*navigation bar*/
 nav {
-    font-family: Lora, sans-serif;
+    font-family: ABeeZee, sans-serif;
     color: #ed1c24;
 }
 
