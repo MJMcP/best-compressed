@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kavoon&family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Kavoon&display=swap');
 
 * {
     margin: 0;
@@ -310,7 +310,7 @@ footer {
 }
 
 .push {
-  height: 150px;
+  height: 50px;
 }
 
 #social-created {
