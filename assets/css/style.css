@@ -155,7 +155,7 @@ em {
 .content {
     clear: both;
     display: block;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 hr {
@@ -327,7 +327,7 @@ footer {
 }
 
 #disclaimer {
-    font-family: Lato, sans-serif;
+    font-family: ABeeZee, Lora, sans-serif;
     font-size: 15px;
     float: left;
     width: 33%;
@@ -449,9 +449,8 @@ footer {
     }
         
     .social-networks{
-        width: 33%;
-        text-align: left;
-        float: left;
+        width: 80%;
+        text-align: center;
     }
     
     .social-networks > li {
@@ -530,6 +529,7 @@ footer {
         text-align: left;
         padding-top: 1rem;
     }    
+
     .section-container {
         clear: both;
         display: flex;
@@ -550,6 +550,18 @@ footer {
         padding: 41px;
         max-width: 90vw;
     }
+    
+    .container {
+        clear: both;
+        display: flex;
+        margin: -25%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        align-content: center;
+        justify-content: space-evenly;
+    }    
+
     .col-25 {
         width: 100%;
         margin-top: 0;
@@ -560,4 +572,63 @@ footer {
       width: 100%;
       margin-top: 0;
     }
+
+    footer {
+        position: /*static*/ fixed;
+        height: /*150px*/ max-content;
+        background-color: #207182;
+        color: #f5f5f5;
+        width: 100%;
+        bottom: 0px; 
+        left: 0px; 
+        right: 0px; 
+        margin-bottom: 0px;
+        padding-top: 1rem;
+    }
+    
+    .push {
+      height: 25/*50*/px;
+    }
+    
+    #social-created {
+        width: 100%;
+        margin-top: 0;
+        text-align: center;  
+        /*    display: block;
+        flex: content;
+        flex-direction: column*/
+    }
+    
+    #disclaimer {
+        font-family: ABeeZee, Lora, sans-serif;
+        font-size: 15px;
+        text-align: justify;
+        width: 70%;
+        margin-left: 2%;
+    }
+        
+    .social-networks{
+        width: 80%;
+        text-align: center;
+    }
+    
+    .social-networks > li {
+        display: inline;
+    }
+    
+    .social-networks i {
+        font-size: 150%;
+        margin: 1%;
+        padding: 5%;
+        color: #f5f5f5;
+    }
+    
+    .updated {
+        font-size: 125%;
+        margin: 1%;
+        padding: 5%;
+        color: #f5f5f5;
+        text-align: match-parent;
+    }
+    
 }
