@@ -10,8 +10,7 @@ body {
     font-family: ABeeZee, sans-serif;
     font-weight: 400;
     color: #1d2c2a;
-    background-color: #f5f5f5;
-    /*margin-bottom: 150px;*/
+    background-color: yellow/*#f5f5f5;*/
 }
 
 /* heading */
@@ -379,12 +378,25 @@ footer {
     .text {
         display:none;
     }
+
+    #introduction {
+        clear: both;
+        padding: 1rem;
+        float: left;
+        margin: 2.5rem;
+        font-size: 18px;
+    }
     
     #introduction > p {
-        width: 65%;
+        width: 65vw;
         margin: 0 auto;
     }
 
+    
+    .hero {
+    width: 100vw;
+    margin: 4.5rem;    
+}
     .content {
         width: 100%;
         float: left;
@@ -401,8 +413,9 @@ footer {
     hr {
         display: none;
     }
+
     footer {
-        position: static;
+        position: fixed;
         height: max-content;
         background-color: #207182;
         color: #f5f5f5;
@@ -483,6 +496,7 @@ footer {
 
     h2 {
         font-family: Kavoon, sans-serif;
+        text-align: center;
         letter-spacing: 4px;
         line-height: 1.6rem;
         font-weight: lighter;
@@ -502,16 +516,40 @@ footer {
     }
 
     #menu {
-        font-size: 1vww;
         line-height: 40px;
-        width: 100%;
-        margin-inline: -25%;
+        display: inline-flex;
+        margin-inline: 32%;
     }
     
     #menu li {
         list-style-type: none;
         }
 
+    .section-name {
+        clear: both;
+        text-align: left;
+        padding-top: 1rem;
+    }    
+    .section-container {
+        clear: both;
+        display: flex;
+        margin: -25%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        align-content: center;
+        justify-content: space-evenly;
+    }    
+
+    .hero {
+        width: 100vw;
+        margin-left: 2rem;
+    }
+
+    img {
+        padding: 41px;
+        max-width: 90vw;
+    }
     .col-25 {
         width: 100%;
         margin-top: 0;
