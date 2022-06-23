@@ -90,7 +90,7 @@ The fonts chosen for this project were 'Kavoon' for the headings (h1, h2 etc) an
 ## Home 
 
 - Navigation  Bar
-  - Situated at the top of the page, the page logo 'BEST COMPRESSED' is shown on the left hand side with the page menu located on the right, listing this HOME page as well as 3 addional pages. Each page is assigned an icon as visual aid. 
+  - Situated at the top of the page, the page logo 'BEST COMPRESSED' is shown on the left hand side with the page menu located on the right, listing this HOME page as well as 3 addional pages. Each page is assigned an icon as a visual aid. 
   - Once the site adapts for smaller screen sizes, the page logo will relocate to the center of screen with the menu options underneath it. Due to the length of some of the link names, the icons will be used instead of text when the site adapts. 
 
 [Back to Contents](#contents)
@@ -167,6 +167,9 @@ In the building of the site, the major issues I had to deal with involved the fo
 [Back to Contents](#contents)
 
 - Column layout and image sizing to format
+
+- Menu layout and presentation on smaller viewports
+  - Due to the length of the text links, I added icons to the links that would become the navigation icons when the site is viewed on a smaller screen.  This was done by adding classes to target the text and icons seperately so they could be hidden or seen as needed.
 
 [Back to Contents](#contents)
 
