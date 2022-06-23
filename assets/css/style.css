@@ -145,9 +145,10 @@ em {
 .container {
     clear: both;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);   
-    margin-bottom: 2rem;
-    padding-left: 4.5rem;
+    grid-template-columns: repeat(3, 35%);   
+    /*margin-bottom: 2rem;
+    padding-left: 4.5rem;*/
+    margin: 2rem;
 }
 
 .content {
