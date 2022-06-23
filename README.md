@@ -16,15 +16,15 @@ The live site can be accessed through this [link](https://www.github.io/best-com
     - [Colour Scheme](#colour-scheme)
 - [Features](#features)
   - [Home](#home)
-    - [Navigation menu](#navigation-bar)
-    - Introduction to section
+    - [Navigation Bar](#navigation-bar)
+    - [Introduction](#introduction)
     - Sub-Sections
-    - Footer
+    - [Footer](#footer)
     - Disclaimer
     - Social Media and Update statue
-  - What is a Compression Garment
-  - Wear & Care
-  - Tried & Tested
+  - [What is a Compression Garment](#what-is-a-compression-garment-page)
+  - [Wear & Care](#wear-and-care-page)
+  - [Tried & Tested](#tried-and-tested-page)
     - Tried & Tested Entry form
     - Form Confirmation
 - Future Features
@@ -89,40 +89,40 @@ The fonts chosen for this project were 'Kavoon' for the headings (h1, h2 etc) an
 <!-- do yo u want to reference the specific project files that implement them? -->
 ## Home 
 
-- Navigation  Bar
+### Navigation Bar
   - Situated at the top of the page, the page logo 'BEST COMPRESSED' is shown on the left hand side with the page menu located on the right, listing this HOME page as well as 3 addional pages. Each page is assigned an icon as a visual aid. 
   - Once the site adapts for smaller screen sizes, the page logo will relocate to the center of screen with the menu options underneath it. Due to the length of some of the link names, the icons will be used instead of text when the site adapts. 
 
 [Back to Contents](#contents)
 
-- Landing Page Image with Introduction text
+### Introduction
   -   This is a general introduction to the ethos of the site and its aims going forward.
   There is also a content disclaimer which reminds the user that the information here is a general guide and that the best advice comes from those trained and who have full knowledge of their individual situation. A repetition of this will appear in the footer of each page.
   - The 3 columns below the general information section will provide a image link and brief description to the additional pages purpose.
 
 [Back to Contents](#contents)
 
-- Footer Section
+### Footer
    - Fixed at the bottom of the screen, the footer contains the constant Disclaimer relating to the content of the site  on the left hand side.
    - There are also 3 links to relatable social media for the site's content. These three platforms were chosen for their generally understood UI which will aid the cross generational divide. 
    - There is a 'Date Updated' information line to reflect the current nature of the information provided.
 
 [Back to Contents](#contents)
 
-- What is a Compression Garment? page
+### What is a Compression Garment page
   - Inheriting the layout of the Landing Page, the information presented here explains simply the purposes of a Compression Garment. 
   - The 3 column section uses images to catagorise the 3 main types and provides bulletpoints of the main differences of each type.     
   - The disclaimer for the intent of the site can be seen in the footer along with the social media icons.
 
 [Back to Contents](#contents)
 
-- Wear and Care page
+### Wear and Care page
   - Inheriting the layout of the Landing Page, the information presented here is predominantly video based instruction videos for the main areas of consideration : the washing and upkeep of the garments themselves and the protection of the skin layer where appropriate. Each video will load with controls and muted for optimal user experience.
   - The disclaimer for the intent of the site can be seen in the footer along with the social media icons.
 
 [Back to Contents](#contents)
 
-- Tried and Tested page
+### Tried and Tested page
   - The current format of this page similar in header and footer layout of its siblings.
   - The main content on this page consists of a form box with name, email address and text box fields for contributing to the advice element of the site.
   - The disclaimer for the intent of the site can be seen in the footer along with the social media icons.
@@ -130,15 +130,14 @@ The fonts chosen for this project were 'Kavoon' for the headings (h1, h2 etc) an
 [Back to Contents](#contents)
 
 ## Features Left to Implement
-<!-- ideas for the future 
+ 
 This site was initially conceived as a public information resource with an option for adaptation depending on user feedback. Some of the features that are intended for the future without feedback are as follows
  
 - Official Logo for use on site and as a watermark for other associated media
-- Advice board 
-- Animation of disclaimer if not possible here
-- Self produced media content 
-- interview pages with individuals who use and wear garments
-possible link page to reputable sellers of accessories once self produced content is in place-->
+- Advice board where collected tips will be displayed
+- Animation/Pop-up of disclaimer, negating the need for its placement in the text of the information section. 
+- Self produced media content: videos and photos to replace the externally sourced content 
+- possible link page to reputable sellers of accessories once self produced content is in place as current image licencing agreement makes this a conflict. 
 
 [Back to Contents](#contents)
 
@@ -187,6 +186,8 @@ Accessibility (lighthouse in dev tools)
 [Back to Contents](#contents)
 
 ### Unfixed Bugs
+footer alignment on smaller screens
+menu alignement on smaller screens
 
 [Back to Contents](#contents)
 
