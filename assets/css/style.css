@@ -38,8 +38,8 @@ nav {
     color: #ed1c24;
 }
 
-nav i {
-    color:#ed1c24;
+nav i:before {
+    visibility: hidden;
 }
 
 #logo {
@@ -403,6 +403,11 @@ footer {
     #menu {
         display: inline-block;
         margin: 0 24%;
+    }
+
+    nav i:before {
+        visibility: visible;
+        font-display: none;
     }
 
     h1 {
