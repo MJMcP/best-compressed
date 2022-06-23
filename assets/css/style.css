@@ -11,7 +11,7 @@ body {
     font-weight: 400;
     color: #1d2c2a;
     background-color: #f5f5f5;
-    margin-bottom: 150px;
+    /*margin-bottom: 150px;*/
 }
 
 /* heading */
@@ -36,6 +36,10 @@ h2 {
 nav {
     font-family: ABeeZee, sans-serif;
     color: #ed1c24;
+}
+
+nav i {
+    color:#ed1c24;
 }
 
 #logo {
@@ -304,7 +308,7 @@ input[type=text], select, textarea{
 
 /*footer*/
 footer {
-    position: fixed;
+    position: static;
     height: 150px;
     background-color: #207182;
     color: #f5f5f5;
@@ -364,16 +368,15 @@ footer {
 
 /* Media queries */
 
-/* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
+/* For medium to smaller screens size from 900px wide and down */
+@media screen and (max-width: 900px) {
     #menu {
-        float: left;
-        padding: 0;
+        display: inline-block;
+        margin:0 24%;
     }
 
     #introduction > p {
         width: 65%;
-        height: 1200px;
         margin: 0 auto;
     }
 
@@ -397,7 +400,11 @@ footer {
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-    
+    #menu {
+        display: inline-block;
+        margin: 0 24%;
+    }
+
     h1 {
         font-family: Kavoon, sans-serif;
         text-transform: uppercase;
