@@ -215,7 +215,7 @@ The live link can be found here -[Best Compressed](https://mjmcp.github.io/best-
 
 [Adobe Color Website](https://color.adobe.com/create/color-wheel) for assistance in creating a suitable color palete that was both pleasing to look at but assessible to those who are colorblind.
 
-
+[Solution to icon-text replacement issue](https://stackoverflow.com/questions/24751486/is-there-a-syntactically-correct-way-to-replace-text-with-an-icon-in-css-html)
 
 [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS) for coding syntax assistance.
 

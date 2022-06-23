@@ -38,9 +38,6 @@ nav {
     color: #ed1c24;
 }
 
-nav i:before {
-    visibility: hidden;
-}
 
 #logo {
     float: left;
@@ -375,6 +372,14 @@ footer {
         margin:0 24%;
     }
 
+    .icon {
+        display : block;
+    }
+    
+    .text {
+        display:none;
+    }
+    
     #introduction > p {
         width: 65%;
         margin: 0 auto;
@@ -400,16 +405,15 @@ footer {
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-    #menu {
-        display: inline-block;
-        margin: 0 24%;
+
+    .icon {
+        display : block;
     }
 
-    nav i:before {
-        visibility: visible;
-        font-display: none;
+    .text {
+        display:none;
     }
-
+    
     h1 {
         font-family: Kavoon, sans-serif;
         text-transform: uppercase;
@@ -443,7 +447,7 @@ footer {
         font-size: 1vww;
         line-height: 40px;
         width: 100%;
-        float: left;
+        margin-inline: -25%;
     }
     
     #menu li {
