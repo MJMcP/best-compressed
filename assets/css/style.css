@@ -304,6 +304,13 @@ input[type=text], select, textarea{
     clear: both;
   }
   
+.submit-button {
+    display: inline-block;
+    margin-right: 18px;
+    text-align: center;
+    width: 100%;
+}
+
   button[type=button] {
     background-color: #207182;
     color: #f5f5f5;
