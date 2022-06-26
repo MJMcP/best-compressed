@@ -170,6 +170,9 @@ In the building of the site, the major issues I had to deal with involved the fo
 - Menu layout and presentation on smaller viewports
   - Due to the length of the text links, I added icons to the links that would become the navigation icons when the site is viewed on a smaller screen.  This was done by adding classes to target the text and icons seperately so they could be hidden or seen as needed.
 
+- 'Return to Homepage' button
+  - The main issue that I encountered with this button was the fact that I expected it to react as the Submit button did on the Tried and Tested page. After many attempts to rectify the possible link issue, I realised that I needed to treat the button layout like an imported image or icon. I used the button element and its attributes as an additional attribute of the a element that actively opens the homepage.
+
 [Back to Contents](#contents)
 
 - Video Embedding   
