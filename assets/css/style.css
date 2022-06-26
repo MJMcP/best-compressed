@@ -143,58 +143,61 @@ em {
     font-weight: bolder;
 }
 
-#container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 10px;
-    padding: 10px;
-    grid: auto / auto auto auto;
-}
 
-#container div {
-    text-align: left;
-    padding: 20px 0;
+#container {
+    clear: both;
+    display: grid;
+    grid-template-columns: repeat(3, 35%);   
+    /*margin-bottom: 2rem;
+    padding-left: 4.5rem;*/
+    margin: 2rem;
 }
 
 .content {
     clear: both;
     display: block;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .left-panel {
-    padding-left: 4.5rem;
+    padding-top: 1rem;
+    padding-right: 4.5rem;
     float: left;
 }
 
 .right-panel {
-    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
     float: left;
 }
 
 .center-panel {
-    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
     float: left;
 }
 
 .left-panel-heading {
-    padding-left: 4.5rem;
+    width: 80%;
     float: left;
     line-height: 20px;
+    margin: 0 1rem;
+    text-align: left;
 }
 
 .right-panel-heading {
-    padding-left: 2rem;
     width: 80%;
     float: left;
     line-height: 20px;
+    margin: 0 1rem;
+    text-align: left;
 } 
 
 .center-panel-heading {
-    padding-left: 2rem;
     width: 80%;
     line-height: 20px;
-    display:inline-block;
+    margin: 0, 1rem;
+    text-align: left; 
 }
 
 .image-size {
