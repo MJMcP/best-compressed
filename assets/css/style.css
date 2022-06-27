@@ -37,6 +37,11 @@ nav {
     color: #ed1c24;
 }
 
+a {
+    font-family: ABeeZee, sans-serif;
+    color: #ed1c24;
+}
+
 
 #logo {
     float: left;
@@ -120,9 +125,20 @@ em {
     margin-right: 2.5rem;
     font-size: 18px;
 }
+
+#introduction ul {
+    display:inline-flex;
+    justify-content: space-around;
+
+}
  
-/*#introduction li {
+#introduction li {
+    clear: both;
     list-style-type: none;
+    font-size: x-large;
+    font-family: ABeeZee, sans-serif;
+    font-weight: 600;
+    padding-inline: 2rem;    
 }
 
 #introduction  a {
@@ -136,7 +152,7 @@ em {
 
 #introduction a:active {
     color: #207182;
-}*/
+}
 
 #warning {
     color: #207182;
