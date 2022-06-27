@@ -444,6 +444,12 @@ footer {
         display:none;
     }
 
+    .section-name {
+        clear: both;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
     #introduction {
         clear: both;
         padding: 1rem;
@@ -518,12 +524,62 @@ footer {
 /* Responsive layout - when the screen is less than 450px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 450px) {
 
-    .icon {
-        display : block;
+    #menu {
+        clear: both;
+        display: inline-flex;
+        width: 100%;
+        justify-content: center;
     }
 
+    #logo {
+        float: none;
+        font-size: 2.5rem;
+        line-height: 4rem;
+        text-align: center;
+        margin: 2vw;
+        padding-bottom: 1vh;
+    }
+     
+    #nav-bar {   
+        display: inline-flex;
+        flex-direction: row-reverse;
+    } 
+
+    #menu i {
+        font-size: x-large;
+        letter-spacing: 1rem;
+        text-indent: 1rem;
+    }
+
+    span .icon {
+        font-size: large;
+    }
+    
     .text {
         display:none;
+    }
+
+    .hero  {
+        width: 106vw;
+
+    }
+
+    img {
+        padding: 41px;
+        max-width: 90vw;
+    }
+
+    #introduction {
+        clear: both;
+        padding: 1rem;
+        float: left;
+        margin: 2.5rem;
+        font-size: 18px;
+    }
+    
+    #introduction > p {
+        width: 65vw;
+        margin: 0 auto;
     }
     
     h1 {
@@ -532,7 +588,6 @@ footer {
         text-align: center;
         letter-spacing: 6px;
         color: #ed1c24;
-    
     }
 
     h2 {
@@ -542,56 +597,29 @@ footer {
         line-height: 1.6rem;
         font-weight: lighter;
         color: #ed1c24;
-    }
-   
-
-    #logo {
-        float: none;
-        font-size: 12vw;
-        line-height: 60px;
-        margin: 2vw;
-        padding-bottom: 1vh;
-    }
-        
-    #nav-bar {   
-        width: 100%; 
-        float: left;
-        margin-left: 25%;
     } 
 
     .section-name {
         clear: both;
-        text-align: left;
+        text-align: center;
         padding-top: 1rem;
     }    
 
     .section-container {
         clear: both;
         display: flex;
-        margin: -25%;
+        flex-wrap: wrap;
         flex-direction: column;
-        flex-wrap: nowrap;
         align-items: center;
         align-content: center;
         justify-content: space-evenly;
     }    
-
-    .hero {
-        width: 100vw;
-        margin-left: 2rem;
-    }
-
-    img {
-        padding: 41px;
-        max-width: 90vw;
-    }
     
     .container {
         clear: both;
         display: flex;
-        margin: -25%;
         flex-direction: column;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         align-items: center;
         align-content: center;
         justify-content: space-evenly;
