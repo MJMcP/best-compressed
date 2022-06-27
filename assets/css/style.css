@@ -655,6 +655,12 @@ footer {
         padding-top: 1rem;
     }    
 
+    .tysection-name {
+        clear: both;
+        text-align: center;
+        padding-top: 2rem;
+        margin: 0 2%;
+    }
     .section-container {
         clear: both;
         display: flex;
