@@ -406,6 +406,43 @@ footer {
 
 /* Media queries */
 
+/* For large to medium screen sizes from 1200px wide and down */
+@media screen and (max-width:1200px){
+    
+    #menu {
+        clear: both;
+        display: inline-flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    #logo {
+        float: none;
+        font-size: 60px;
+        line-height: 80px;
+        text-align: center;
+        margin: 2vw;
+        padding-bottom: 1vh;
+    }
+     
+    #nav-bar {   
+        display: inline-flex;
+        flex-direction: row-reverse;
+    } 
+
+    #menu li {
+        padding: 0, 1rem, 0, 1rem;
+    }
+
+    .section-name {
+        clear: both;
+        text-align: center;
+        padding-top: 1rem;
+    }
+    
+}
+
+
 /* For medium to smaller screens size from 800px wide and down */
 @media screen and (max-width: 800px) {
 
@@ -648,12 +685,6 @@ footer {
         margin-left: 2%;
     }
         
-    /*.wrapper {
-        display: block;
-        flex: content;
-        flex-direction: column
-        }
-*/
     .social-networks{
         width: 100%;
         text-align: center;
