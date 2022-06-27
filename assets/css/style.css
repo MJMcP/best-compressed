@@ -37,12 +37,6 @@ nav {
     color: #ed1c24;
 }
 
-a {
-    font-family: ABeeZee, sans-serif;
-    color: #ed1c24;
-}
-
-
 #logo {
     float: left;
     font-size: 40px;
@@ -290,13 +284,6 @@ input[type=text], select, textarea{
     cursor: pointer;
     float: right;
   }
-
-  /*Style the container 
-  .container {
-    border-radius: 5px;
-    background-color: #989dca;
-    padding: 20px;
-  }
   
   /* Floating column for labels: 15% width */
   .col-25 {
@@ -360,6 +347,9 @@ input[type=text], select, textarea{
 /*    float: right;*/
   }
 
+  .form {
+    margin-bottom: 4rem;
+  }
 /*footer*/
 footer {
     position: relative;
