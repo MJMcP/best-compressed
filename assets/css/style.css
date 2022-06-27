@@ -449,6 +449,7 @@ footer {
         text-align: center;
         padding-top: 1rem;
     }
+   
 
     #introduction {
         clear: both;
@@ -463,13 +464,11 @@ footer {
         margin: 0 auto;
     }
 
-    
     .hero {
         width: 100vw;
         margin: 4.5rem;    
     }   
     
-
 
     footer {
         display: flex;
@@ -581,23 +580,7 @@ footer {
         width: 65vw;
         margin: 0 auto;
     }
-    
-    h1 {
-        font-family: Kavoon, sans-serif;
-        text-transform: uppercase;
-        text-align: center;
-        letter-spacing: 6px;
-        color: #ed1c24;
-    }
-
-    h2 {
-        font-family: Kavoon, sans-serif;
-        text-align: center;
-        letter-spacing: 4px;
-        line-height: 1.6rem;
-        font-weight: lighter;
-        color: #ed1c24;
-    } 
+     
 
     .section-name {
         clear: both;
