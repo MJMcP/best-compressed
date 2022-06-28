@@ -521,6 +521,7 @@ footer {
     .section-name {
         clear: both;
         text-align: center;
+        max-width: 90vw;
         padding-top: 1rem;
     }
    
@@ -673,10 +674,10 @@ footer {
         text-align: center;
     }
     
-
     .section-name {
         clear: both;
         text-align: center;
+        max-width: 90vw;
         padding-top: 1rem;
     }    
 
