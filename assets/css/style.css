@@ -158,8 +158,8 @@ em {
     clear: both;
     display: grid;
     grid-template-columns: repeat(3, 35%);   
-    /*margin-bottom: 2rem;
-    padding-left: 4.5rem;*/
+    margin-bottom: 2rem;
+    padding-left: 4.5rem;
     margin: 2rem;
 }
 
@@ -169,42 +169,50 @@ em {
     margin-bottom: 1rem;
 }
 
-.left-panel {
-    padding-top: 1rem;
-    padding-right: 4.5rem;
+
+/* Floating column for left column: 15% width */
+.left-panel, .right-panel {
     float: left;
+    text-align: start;
+    margin-top: 6px;
+    padding-top: 1rem;
+  }
+  
+  /* Floating column for : 60% width */
+  .center-panel {
+    float: left;
+    margin-top: 6px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.left-panel {
+    padding-right: 4.5rem;
 }
 
 .right-panel {
-    padding-top: 1rem;
     padding-left: 1rem;
-    float: left;
 }
 
-.center-panel {
-    padding-top: 1rem;
-    padding-left: 1rem;
+.left-panel-heading, .right-panel-heading {
     float: left;
-}
-
-.left-panel-heading {
-    width: 80%;
-    float: left;
+    width: 33.33%;
+    width: fit-content;
     line-height: 20px;
     margin: 0 1rem;
     text-align: left;
 }
-
-.right-panel-heading {
-    width: 80%;
-    float: left;
-    line-height: 20px;
-    margin: 0 1rem;
-    text-align: left;
-} 
 
 .center-panel-heading {
-    width: 80%;
+    float: left;
+    width: 33.33%;
     line-height: 20px;
     margin: 0, 1rem;
     text-align: left; 
