@@ -55,7 +55,7 @@ The ideal user of this site will be:
 
 ## Wireframes
 
-The wireframes for this site were produced and are hosted on the site [Balsamiq](https://balsamiq.cloud/sggsq12/pfyavp4/rCDA5?f=N4IgUiBcCMA0IDkpxAYWfAMhkAhHAsjgFo4DSUA2gLoC%2BQA%3D). Please click link to view them and the planning notes. 
+The wireframes for this site were produced and are hosted on the site [Balsamiq](https://balsamiq.com). Please click [this link](/assets/readme_images/Best%20Compressed.pdf) to view them and the planning notes. 
 
 [Back to Contents](#contents)
 
