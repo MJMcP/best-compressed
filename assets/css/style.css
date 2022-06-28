@@ -163,28 +163,23 @@ em {
     margin: 2rem;
 }
 
-.content {
-    clear: both;
-    display: block;
-    margin-bottom: 1rem;
-}
-
-
 /* Floating column for left column: 15% width */
-.left-panel, .right-panel {
+  .left-panel-heading, .right-panel-heading {
     float: left;
-    text-align: start;
-    margin-top: 6px;
-    padding-top: 1rem;
+    width: 33.33%;
+    width: fit-content;
+    line-height: 20px;
+    margin: 0, 1rem;
+    text-align: left;
   }
-  
   /* Floating column for : 60% width */
-  .center-panel {
+  .center-panel-heading {
     float: left;
-    margin-top: 6px;
-    padding-top: 1rem;
-    padding-left: 1rem;
-  }
+    width: 33.33%;
+    line-height: 20px;
+    margin: 0, 1rem;
+    text-align: left; 
+}
   
   /* Clear floats after the columns */
   .row:after {
@@ -193,30 +188,26 @@ em {
     clear: both;
   }
 
+  
+.left-panel, .right-panel {
+    margin-top: 6px;
+    padding-top: 1rem; 
+  }
+
 .left-panel {
     padding-right: 4.5rem;
 }
 
 .right-panel {
     padding-left: 1rem;
-}
+}*
 
-.left-panel-heading, .right-panel-heading {
-    float: left;
-    width: 33.33%;
-    width: fit-content;
-    line-height: 20px;
-    margin: 0 1rem;
-    text-align: left;
-}
+.center-panel {
+    margin-top: 6px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
 
-.center-panel-heading {
-    float: left;
-    width: 33.33%;
-    line-height: 20px;
-    margin: 0, 1rem;
-    text-align: left; 
-}
 
 .image-size {
     height: 230px;
@@ -445,7 +436,7 @@ footer {
     } 
 
     #menu li {
-        padding: 0, 1rem, 0, 1rem;
+        padding: 0, 1rem;
     }
 
     .section-name {
