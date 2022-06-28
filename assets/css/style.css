@@ -445,7 +445,6 @@ footer {
         clear: both;
         text-align: center;
         padding-top: 1rem;
-        margin-left: -5%;
     }
     
     .section-container {
@@ -521,9 +520,7 @@ footer {
     .section-name {
         clear: both;
         text-align: center;
-        max-width: 90vw;
         padding-top: 1rem;
-        margin-left: -5%;
     }
    
     .section-container {
@@ -706,9 +703,7 @@ footer {
     .section-name {
         clear: both;
         text-align: center;
-        max-width: 90vw;
         padding-top: 1rem;
-        margin-left: -5%;
     }    
 
     .tysection-name {
