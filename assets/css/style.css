@@ -7,6 +7,8 @@
 }
 
 body {
+    min-width: 100vw;
+    max-height: 100vh;
     font-family: ABeeZee, sans-serif;
     font-weight: 400;
     color: #1d2c2a;
@@ -463,6 +465,18 @@ footer {
         text-align: left;
         align-content: space-around;
     }
+    
+    .col-25 {
+        width: 100%;
+        margin-top: 0;
+        text-align: start;
+    } 
+    
+    .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+
 }
 
 
@@ -538,6 +552,18 @@ footer {
         flex-wrap: wrap;   
     }   
     
+    
+    .col-25 {
+        width: 100%;
+        margin-top: 0;
+        text-align: start;
+    } 
+    
+    .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+
 
     footer {
         display: flex;
