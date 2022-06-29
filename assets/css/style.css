@@ -87,7 +87,6 @@ em {
 .section-name {
     clear: both;
     text-align: left;
-  /*  margin-left: 5%;*/
     padding-top: 1rem; 
 }
 
@@ -107,7 +106,7 @@ em {
 
 .hero {
     float: left;
-    margin-left: 4.5rem;    
+/*    margin-left: 4.5rem;*/    
 }
 
 .credit {
@@ -156,46 +155,34 @@ em {
     font-weight: bolder;
 }
 
-
 #container {
     clear: both;
-    display: grid;
-    grid-template-columns: repeat(3, 35%);   
+    display: flex;
+    flex-direction: row;   
     margin-bottom: 2rem;
    /* padding-left: 4.5rem;*/
     margin: 2rem;
 }
 
-/* Floating column for left column: 15% width */
+/* Floating column for left column: */
   .left-panel-heading, .right-panel-heading {
-    /*float: left;
-    width: 33.33%;
-    width: fit-content;
-    line-height: 20px;
-    margin: 0, 1rem;
-    text-align: left;*/
-
     clear: both;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-bottom: 2rem;
     margin: 2rem;
-    flex-direction: column;
   }
 
   /* Floating column for : 60% width */
   .center-panel-heading {
-    /*float: left;
-    width: 33.33%;
-    line-height: 20px;
-    margin: 0, 1rem;
-    text-align: left; */
-
-    clear: both;
-    display: flex;
-    margin-bottom: 2rem;
-    margin: 2rem;
-    flex-direction: column;
-}
+        clear: both;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 2rem;
+        margin: 2rem;
+    }
   
   /* Clear floats after the columns */
   .row:after {
@@ -204,7 +191,7 @@ em {
     clear: both;
   }
 
-  
+  /*
 .left-panel, .right-panel {
     margin-top: 6px;
     padding-top: 1rem; 
@@ -224,7 +211,7 @@ em {
     padding-left: 1rem;
     padding-right: 4.5rem
   }
-
+*/
 
 .image-size {
     height: 230px;
@@ -466,8 +453,8 @@ footer {
     
     .section-container {
         clear: both;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        display: flex;
+        flex-direction: row;
         margin-bottom: 2rem;
     }
 
@@ -482,6 +469,16 @@ footer {
         align-content: space-around;
     }
     
+    #container {
+        clear: both;
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;  
+        margin-bottom: 2rem;
+   /* padding-left: 4.5rem;*/
+        margin: 2rem;
+    }
+
     .col-25 {
         width: 100%;
         margin-top: 0;
@@ -491,6 +488,12 @@ footer {
     .col-75, input[type=submit] {
       width: 100%;
       margin-top: 0;
+    }
+
+    .image-size {
+        max-width: 90vw;
+        height: auto;
+        padding: 0;
     }
 
 }
@@ -543,10 +546,17 @@ footer {
     .section-container {
         clear: both;
         display: flex;
-        flex-wrap: wrap;/*
-        justify-content: space-between;*/
+        flex-wrap: wrap;
+        justify-content: center;
         margin-bottom: 2rem;
         
+    }
+
+    .image-size {
+        max-width: 90vw;
+        height: auto;
+        padding: 0;
+        display: contents;
     }
 
     #introduction {
@@ -554,34 +564,34 @@ footer {
         display: flex;
         flex-wrap: wrap;
         width: 100vw;
-        margin: 0 4%;
+        margin: 0, 4%;
+        padding-top: 2rem;
         font-size: 18px;
         text-align: center;
     }
 
-    
-#introduction ul {
-    display:flex;
-    flex-wrap: wrap;
-    padding-top: 1rem;
-}
+    #introduction ul {
+        display:flex;
+        flex-wrap: wrap;
+        padding-top: 1rem;
+    }
  
-#introduction li {
-    clear: both;
-    list-style-type: none;
-    font-family: ABeeZee, sans-serif;
-    font-weight: 600;
-    padding-inline: 1rem;    
-}
-
-    .hero {
-        width: 100vw;
-        display: flex;
-        margin: 2.5rem;
-        flex-direction: column;
-        flex-wrap: wrap;   
-    }   
+    #introduction li {
+        clear: both;
+        list-style-type: none;
+        font-family: ABeeZee, sans-serif;
+        font-weight: 600;
+        padding-inline: 1rem;    
+    }
     
+    #container {
+        clear: both;
+        display: flex;
+        flex-direction: column;   
+        margin-bottom: 2rem;
+   /* padding-left: 4.5rem;*/
+        margin: 2rem;
+    }
     
     .col-25 {
         width: 100%;
@@ -594,6 +604,7 @@ footer {
       margin-top: 0;
     }
 
+    /* FOOTER */
 
     footer {
         display: flex;
@@ -683,13 +694,15 @@ footer {
         display:none;
     }
 
-    .hero  {
+    /*Body of content*/
+    
+    /*.hero  {
         width: 106vw;
 
-    }
+    }*/
 
     img {
-        padding: 41px;
+        padding: 0px;
         max-width: 90vw;
     }
 
@@ -701,21 +714,22 @@ footer {
         margin: -12% 36%;
         font-size: 18px;
         text-align: center;
+        padding-top: 2rem;
     }
     
-#introduction ul {
-    display:flex;
-    flex-wrap: wrap;
-    padding-top: 1rem;
-}
+    #introduction ul {
+        display:flex;
+        flex-wrap: wrap;
+        padding-top: 1rem;
+    }
  
-#introduction li {
-    clear: both;
-    list-style-type: none;
-    font-family: ABeeZee, sans-serif;
-    font-weight: 600;
-    padding-inline: 1rem;    
-}
+    #introduction li {
+        clear: both;
+        list-style-type: none;
+        font-family: ABeeZee, sans-serif;
+        font-weight: 600;
+        padding-inline: 1rem;    
+    }
     
     .section-name {
         clear: both;
@@ -739,7 +753,7 @@ footer {
         justify-content: space-evenly;
     }    
     
-    .container {
+    #container {
         clear: both;
         display: flex;
         flex-direction: column;
@@ -760,6 +774,7 @@ footer {
       margin-top: 0;
     }
 
+    /*FOOTER*/
     footer {
         display: flex;
         flex-wrap: wrap;
