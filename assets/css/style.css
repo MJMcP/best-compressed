@@ -472,8 +472,7 @@ footer {
     #container {
         clear: both;
         display: flex;
-        flex-direction: row;
-        align-content: space-between;  
+        flex-direction: row; 
         margin-bottom: 2rem;
    /* padding-left: 4.5rem;*/
         margin: 2rem;
