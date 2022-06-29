@@ -87,7 +87,7 @@ em {
 .section-name {
     clear: both;
     text-align: left;
-    margin-left: 5%;
+  /*  margin-left: 5%;*/
     padding-top: 1rem; 
 }
 
@@ -99,8 +99,9 @@ em {
 }
 .section-container {
     clear: both;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
     margin-bottom: 2rem;
 }
 
