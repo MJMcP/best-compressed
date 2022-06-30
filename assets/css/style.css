@@ -181,7 +181,6 @@ em {
         clear: both;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         margin-bottom: 2rem;
         margin: 2rem;
     }
@@ -216,13 +215,14 @@ em {
 */
 
 .image-size {
-    height: 230px;
+    min-height: 230px;
     width: 345px;
     padding: 0;
 }
 
 img {
-    width: inherit; 
+    width: inherit;
+    min-height: inherit;
     padding: 0; 
 }
 
