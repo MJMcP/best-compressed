@@ -7,8 +7,6 @@
 }
 
 body {
-    min-width: 100vw;
-    max-height: 100vh;
     font-family: ABeeZee, sans-serif;
     font-weight: 400;
     color: #1d2c2a;
@@ -87,7 +85,8 @@ em {
 .section-name {
     clear: both;
     text-align: left;
-    padding-top: 1rem; 
+    padding-top: 1rem;
+    padding-left: 2rem; 
 }
 
 .tysection-name {
@@ -123,7 +122,7 @@ em {
 }
 
 #introduction ul {
-    display:inline-flex;
+    display:flex;
     justify-content: space-around;
 
 }
@@ -301,7 +300,7 @@ input[type=text], select, textarea{
   /* Floating column for inputs: 85% width */
   .col-75 {
     float: left;
-    width: 85%;
+    width: 100%;
     margin-top: 6px;
   }
   
@@ -353,8 +352,11 @@ input[type=text], select, textarea{
   }
 
   .form {
-    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
   }
+
 /*footer*/
 footer {
     position: relative;
@@ -367,6 +369,7 @@ footer {
     right: 0px; 
     margin-bottom: 0px;
     padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
 .push {
@@ -449,6 +452,7 @@ footer {
         clear: both;
         text-align: center;
         padding-top: 1rem;
+        padding-left:0;
     }
     
     .section-container {
@@ -503,7 +507,7 @@ footer {
 
     #menu {
         clear: both;
-        display: inline-flex;
+        display: flex;
         width: 100%;
         justify-content: center;
     }
@@ -518,7 +522,7 @@ footer {
     }
      
     #nav-bar {   
-        display: inline-flex;
+        display: flex;
         flex-direction: row-reverse;
     } 
 
@@ -540,6 +544,7 @@ footer {
         clear: both;
         text-align: center;
         padding-top: 1rem;
+        padding-left:0;
     }
    
     .section-container {
@@ -603,6 +608,11 @@ footer {
       margin-top: 0;
     }
 
+    .form {
+        clear: both;
+        width:  100%;
+    }
+
     /* FOOTER */
 
     footer {
@@ -660,7 +670,7 @@ footer {
 
     #menu {
         clear: both;
-        display: inline-flex;
+        display: flex;
         width: 100%;
         justify-content: center;
     }
@@ -675,7 +685,7 @@ footer {
     }
      
     #nav-bar {   
-        display: inline-flex;
+        display: flex;
         flex-direction: row-reverse;
     } 
 
@@ -710,7 +720,7 @@ footer {
         display: flex;
         flex-wrap: wrap;
         width: 85vw;
-        margin: -12% 36%;
+        margin: 0% 36%;
         font-size: 18px;
         text-align: center;
         padding-top: 2rem;
@@ -734,6 +744,7 @@ footer {
         clear: both;
         text-align: center;
         padding-top: 1rem;
+        padding-left:0;
     }    
 
     .tysection-name {
