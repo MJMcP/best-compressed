@@ -168,7 +168,6 @@ em {
     clear: both;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin-bottom: 2rem;
     margin: 2rem;
   }
@@ -219,8 +218,7 @@ em {
 }
 
 img {
-    width: auto; 
-    max-height: 100%;
+    width: inherit; 
     padding: 0; 
 }
 
@@ -494,8 +492,7 @@ footer {
     }
 
     .image-size {
-        max-width: 90vw;
-        height: auto;
+   
         padding: 0;
     }
 
@@ -557,7 +554,6 @@ footer {
     }
 
     .image-size {
-        max-width: 90vw;
         height: auto;
         padding: 0;
         display: contents;
@@ -712,7 +708,7 @@ footer {
 
     img {
         padding: 0px;
-        max-width: 90vw;
+    
     }
 
     #introduction {
