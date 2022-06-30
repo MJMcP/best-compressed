@@ -163,6 +163,10 @@ em {
     margin: 2rem;
 }
 
+#container h2{
+    padding-top: 1rem;
+}
+
 /* Floating column for left column: */
   .left-panel-heading, .right-panel-heading {
     clear: both;
@@ -464,12 +468,10 @@ footer {
         clear: both;
         display: flex;
         flex-wrap: wrap;
-        width: 35.25rem;
         font-size: 1.2rem;
         margin: 0 2%;
         text-align: left;
-        align-content: space-around;
-    }
+        }
     
     #container {
         clear: both;
@@ -491,11 +493,20 @@ footer {
       margin-top: 0;
     }
 
-    .image-size {
    
-        padding: 0;
+    #introduction ul {
+        display:flex;
+        flex-wrap: wrap;
+        padding-top: 1rem;
     }
-
+ 
+    #introduction li {
+        clear: both;
+        list-style-type: none;
+        font-family: ABeeZee, sans-serif;
+        font-weight: 600;
+        padding-inline: 1rem;    
+    }
 }
 
 
