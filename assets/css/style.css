@@ -447,7 +447,7 @@ footer {
     } 
 
     #menu li {
-        padding: 0, 1rem;
+        padding: 0 1rem;
     }
 
     .section-name {
@@ -575,7 +575,7 @@ footer {
         display: flex;
         flex-wrap: wrap;
         width: 100vw;
-        margin: 0, 4%;
+        margin: 0 4%;
         padding-top: 2rem;
         font-size: 18px;
         text-align: center;
