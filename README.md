@@ -190,7 +190,7 @@ In the building of the site, the major issues I had to deal with involved the fo
   - HTML with W3C validator
     First issue that was highlighted on all the pages was the labeling error that was within the navigation bar. 
     
-    ![](vscode-remote://mjmcp-bestcompressed-v3pii7zat23.ws-eu51.gitpod.io/workspace/best-compressed/assets/readme_images/htmlValidatorIndexPg.jpg)
+    ![Error Code 1 and 2](assets/readme_images/htmlValidatorIndexPg.jpg)
     
     This was created in 2 parts: the first through a spelling error which was easily corrected and the second by removing an alt property tag that had been included on part of the homepage navigation icon.
 
