@@ -6,7 +6,7 @@
     border: none;
 }
 
-html  {
+html {
     height: 100%;
 }
 
@@ -91,8 +91,7 @@ em {
 .section-name {
     clear: both;
     text-align: left;
-    padding-top: 1rem;
-    padding-left: 2rem; 
+    padding-top: 1rem; 
 }
 
 .tysection-name {
@@ -110,6 +109,7 @@ em {
 
 .hero {
     float: left;
+    margin-left: 3.5rem;
 }
 
 .credit {
@@ -121,20 +121,16 @@ em {
     clear: both;
     padding: 1rem;
     float: right;   
-    font-size: 18px;
 }
 
 #introduction ul {
     display:flex;
-/*    justify-content: space-around;*/
 }
  
 #introduction li {
     clear: both;
     list-style-type: none;
-    font-size: x-large;
     font-family: ABeeZee, sans-serif;
-    font-weight: 600;
     padding-inline: 2rem;    
 }
 
@@ -161,7 +157,6 @@ em {
     display: flex;
     flex-direction: row;   
     margin-bottom: 2rem;
-   /* padding-left: 4.5rem;*/
     margin: 2rem;
 }
 
@@ -210,7 +205,7 @@ img {
 /*sourced from W3 tutorial on responsive forms*/
 /* Style inputs, select elements and textareas */
 input[type=text], select, textarea{
-    width: 100vw;
+    width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -219,7 +214,7 @@ input[type=text], select, textarea{
   }
 
   input[type=email] {
-    width: 100vw;
+    width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -276,14 +271,14 @@ input[type=text], select, textarea{
   .col-25 {
     float: left;
     text-align: end;
-    width: 15%;
+    max-width: 320px;
     margin-top: 6px;
   }
   
   /* Floating column for inputs: 85% width */
   .col-75 {
     float: left;
-    min-width: 500px;
+    min-width: 320px;
     margin-top: 6px;
   }
   
@@ -310,7 +305,7 @@ input[type=text], select, textarea{
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    /*float: right;*/
+
   }
 
   button[type=button]:hover {
@@ -321,7 +316,6 @@ input[type=text], select, textarea{
     border-style: ridge;
     border-radius: 4px;
     cursor: pointer;
-/*    float: right;*/
   }  
 
   button[type=button]:active {
@@ -331,26 +325,20 @@ input[type=text], select, textarea{
     border: none;
     border-radius: 4px;
     cursor: pointer;
-/*    float: right;*/
   }
 
   .form {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 50vh;
   }
 
 /*footer*/
 footer {
     background-color: #207182;
     color: #f5f5f5;
-  /*  width: 100vw;
-    bottom: 0px; 
-    left: 0px; 
-    right: 0px; 
-    margin-bottom: 0px;
-    padding-top: 1rem;*/
-    padding: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
     margin-top: auto;
 }
 
@@ -368,13 +356,13 @@ footer {
     font-family: ABeeZee, Lora, sans-serif;
     font-size: 15px;
     float: left;
-    width: 33%;
+    width: 33%; 
     text-align: justify;
     margin-left: 5%;
     margin-bottom: auto;
     padding: 15px;
 }
-    
+
 .social-networks{
     width: 33%;
     text-align: left;
@@ -400,6 +388,11 @@ footer {
     text-align: match-parent;
 }
 
+.wrapper {
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
 /* Media queries */
 
 /* For large to medium screen sizes from 1366px wide and down */
@@ -420,11 +413,6 @@ footer {
         margin: 2vw;
         padding-bottom: 1vh;
     }
-     
-    #nav-bar {   
-        display: inline-flex;
-        flex-direction: row-reverse;
-    } 
 
     #menu li {
         padding: 0 1rem;
@@ -458,7 +446,6 @@ footer {
         display: flex;
         flex-direction: row; 
         margin-bottom: 2rem;
-   /* padding-left: 4.5rem;*/
         margin: 2rem;
     }
 
@@ -508,11 +495,6 @@ footer {
         margin: 2vw;
         padding-bottom: 1vh;
     }
-     
-    #nav-bar {   
-        display: flex;
-        flex-direction: row-reverse;
-    } 
 
     #menu i {
         font-size: x-large;
@@ -580,7 +562,6 @@ footer {
         display: flex;
         flex-direction: column;   
         margin-bottom: 2rem;
-   /* padding-left: 4.5rem;*/
         margin: 2rem;
     }
     
@@ -603,12 +584,11 @@ footer {
     /* FOOTER */
 
     footer {
-        display: flex;
-        flex-wrap: wrap;
-        height: max-content;
-        margin-bottom: 0px;
+        background-color: #207182;
+        color: #f5f5f5;
         padding-top: 1rem;
         padding-bottom: 2rem;
+        margin-top: auto;
         justify-content: center;
     }
     
@@ -658,13 +638,8 @@ footer {
     #menu {
         clear: both;
         display: flex;
-        flex-direction: row-reverse;
-    }
-     
-    #menu li {
-        display: inline-block;
-        font-size: 16px;
-        padding:5px;
+        width: 100%;
+        justify-content: center;
     }
 
     #logo {
@@ -676,8 +651,9 @@ footer {
         padding-bottom: 1vh;
     }
      
+
     #menu i {
-        font-size: X-large;
+        font-size: x-large;
         letter-spacing: 1rem;
         text-indent: 1rem;
     }
@@ -692,10 +668,10 @@ footer {
 
     /*Body of content*/
     
-    /*.hero  {
-        width: 106vw;
+    .hero  {
+        width: 100vw;
 
-    }*/
+    }
 
     img {
         padding: 0px;
