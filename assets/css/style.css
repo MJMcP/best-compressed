@@ -6,14 +6,20 @@
     border: none;
 }
 
+html  {
+    height: 100%;
+}
+
 body {
     font-family: ABeeZee, sans-serif;
     font-weight: 400;
     color: #1d2c2a;
-    background-color: #f5f5f5;  /*colour changed to help visual checks, to be returned once completed*/
-}
+    background-color: #f5f5f5;
 
-/* heading */
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
 h1 {
     font-family: Kavoon, sans-serif;
@@ -99,13 +105,11 @@ em {
     clear: both;
     display: flex;
     flex-direction: row;
-    margin: 2rem;
     margin-bottom: 2rem;
 }
 
 .hero {
     float: left;
-/*    margin-left: 4.5rem;*/    
 }
 
 .credit {
@@ -116,15 +120,13 @@ em {
 #introduction {
     clear: both;
     padding: 1rem;
-    float: right;
-    margin-right: 2.5rem;
+    float: right;   
     font-size: 18px;
 }
 
 #introduction ul {
     display:flex;
-    justify-content: space-around;
-
+/*    justify-content: space-around;*/
 }
  
 #introduction li {
@@ -192,28 +194,7 @@ em {
     clear: both;
   }
 
-  /*
-.left-panel, .right-panel {
-    margin-top: 6px;
-    padding-top: 1rem; 
-  }
-
-.left-panel {
-    padding-right: 4.5rem;
-}
-
-.right-panel {
-    padding-right: 8.5rem;
-}
-
-.center-panel {
-    margin-top: 6px;
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 4.5rem
-  }
-*/
-
+  
 .image-size {
     min-height: 230px;
     width: 345px;
@@ -229,7 +210,7 @@ img {
 /*sourced from W3 tutorial on responsive forms*/
 /* Style inputs, select elements and textareas */
 input[type=text], select, textarea{
-    width: 100%;
+    width: 100vw;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -238,7 +219,7 @@ input[type=text], select, textarea{
   }
 
   input[type=email] {
-    width: 100%;
+    width: 100vw;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -302,7 +283,7 @@ input[type=text], select, textarea{
   /* Floating column for inputs: 85% width */
   .col-75 {
     float: left;
-    width: 100%;
+    min-width: 500px;
     margin-top: 6px;
   }
   
@@ -361,17 +342,16 @@ input[type=text], select, textarea{
 
 /*footer*/
 footer {
-    position: relative;
-    height: 150px;
     background-color: #207182;
     color: #f5f5f5;
-    width: 100%;
+  /*  width: 100vw;
     bottom: 0px; 
     left: 0px; 
     right: 0px; 
     margin-bottom: 0px;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;*/
+    padding: 2rem;
+    margin-top: auto;
 }
 
 .push {
@@ -678,8 +658,13 @@ footer {
     #menu {
         clear: both;
         display: flex;
-        width: 100%;
-        justify-content: center;
+        flex-direction: row-reverse;
+    }
+     
+    #menu li {
+        display: inline-block;
+        font-size: 16px;
+        padding:5px;
     }
 
     #logo {
@@ -691,13 +676,8 @@ footer {
         padding-bottom: 1vh;
     }
      
-    #nav-bar {   
-        display: flex;
-        flex-direction: row-reverse;
-    } 
-
     #menu i {
-        font-size: x-large;
+        font-size: X-large;
         letter-spacing: 1rem;
         text-indent: 1rem;
     }
