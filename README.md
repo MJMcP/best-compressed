@@ -190,7 +190,7 @@ In the building of the site, the major issues I had to deal with involved the fo
 [Back to Contents](#contents)
 
 - Menu layout and presentation on smaller viewports
-  - Due to the length of the text links, I added icons to the links that would become the navigation icons when the site is viewed on a smaller screen.  This was done by adding classes to target the text and icons seperately so they could be hidden or seen as needed.
+  - Due to the length of the text links, I added icons to the links that would become the navigation icons when the site is viewed on a smaller screen.  This was done by adding classes to target the text and icons seperately so they could be hidden or seen as needed. Attention was required for both margin and padding settings for the various size screens but the presentation is equal across the different screen sizes.
 
 [Back to Contents](#contents)
 
@@ -200,7 +200,14 @@ In the building of the site, the major issues I had to deal with involved the fo
 [Back to Contents](#contents)
 
 - Video Embedding   
-  - When I first attempted to insert a link for the youtube videos that I had selected, I was immediately shown an error message for where the video should appear. My first source of assistance was the Slack channels of CI where I searched for "embed youtube link into html". One member suggested the video embed generator created by Codegena but warned of issues may occur in validation later. I decided to use the generator for the moment as they work for MVP and I hope to correct before official launch of site on June 23rd 2022. 
+  - When I first attempted to insert a link for the youtube videos that I had selected, I was immediately shown an error message for where the video should appear. My first source of assistance was the Slack channels of CI where I searched for "embed youtube link into html". One member suggested the video embed generator created by Codegena but warned of issues may occur in validation later. I decided to use the generator for the moment as they work for MVP, I have not come across any major issues as of yet but I am aware that this may be an issue in the future. 
+
+[Back to Contents](#contents)
+
+- Form Format   
+  - The coding for a basic form layout was readily available in various locations so I implemented the form values from the w3school website to create my version. While I have found it to be easily responsive to the smaller screen sizes, I have not been able to successfully identify the syntax I need to evenly space the form element beside the additional text on the same page.
+  
+![Screengrab of form layout on large screen](/assets/readme_images/formIssue01.jpg)
 
 [Back to Contents](#contents)
 
