@@ -109,9 +109,13 @@ em {
     padding-left: 3.5rem;
 }
 
-.credit {
-    text-align:inherit;
-    font-size: 14px;
+#container .credit {
+    clear: both;
+    text-align: inherit;
+    color: blue;
+    font-family: auto;
+    letter-spacing: normal;
+    font-size: 0.8rem
 }
 
 #introduction {
