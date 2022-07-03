@@ -211,6 +211,7 @@ In the building of the site, the major issues I had to deal with involved the fo
     - what_is.html
 
     - wear_care.html
+      This section had the most errors from all the HTML validator reports.
 
     - tried_tested.html
       The majority of the errors highlighted were corrected but there were 2 that are still unresolved.
