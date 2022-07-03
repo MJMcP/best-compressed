@@ -212,6 +212,7 @@ In the building of the site, the major issues I had to deal with involved the fo
 
     - wear_care.html
       This section had the most errors from all the HTML validator reports.
+      Most of these seemed to be spelling errors rather than syntax. These were corrected.
 
     - tried_tested.html
       The majority of the errors highlighted were corrected but there were 2 that are still unresolved.
