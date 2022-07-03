@@ -201,11 +201,22 @@ In the building of the site, the major issues I had to deal with involved the fo
 ### Validator Testing
 <!-- the reports back from these validators -->
   - HTML with W3C validator
+    - index.html
     First issue that was highlighted on all the pages was the labeling error that was within the navigation bar. 
     
     ![Error Code 1 and 2](assets/readme_images/htmlValidatorIndexPg.jpg)
     
     This was created in 2 parts: the first through a spelling error which was easily corrected and the second by removing an alt property tag that had been included on part of the homepage navigation icon.
+
+    - what_is.html
+
+    - wear_care.html
+
+    - tried_tested.html
+
+    - tried_tested_ty_html
+        ![Errors](/assets/readme_images/tried_tested_tyChecker.jpg)
+        The article error was quickly resolved but the button error failed to return a viable correction. As the function required from the button is working and I found no other acceptable solution for the validator, I have chosen to leave it as it is for the present.
 
 CSS with (Jigsaw) validator
 Accessibility (lighthouse in dev tools)
