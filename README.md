@@ -2,9 +2,10 @@
 
 The Best Compressed website is a public information website that provides advice and user-led suggestions for those who use compression garments. Its aim is to present the information about the various types of compression garments available and to clear up some of the confusion about the purpose of one type over another.
 
-The live site can be accessed through this [link](https://www.github.io/best-compressed/index.html).
+The live site can be accessed through this [link](https://mjmcp.github.io/best-compressed/index.html).
 
-<!--RESPONSIVE IMAGE OF SITE HERE-->
+![Ui.dev screenshot](/assets/readme_images/responsiveImage.jpg) 
+
 
 # Contents
 - [User Experience UX](#user-experience-ux)
@@ -18,17 +19,13 @@ The live site can be accessed through this [link](https://www.github.io/best-com
   - [Home](#home)
     - [Navigation Bar](#navigation-bar)
     - [Introduction](#introduction)
-    - Sub-Sections
+    - [Sub-Sections](#sub-sections)
     - [Footer](#footer)
-    - Disclaimer
-    - Social Media and Update statue
   - [What is a Compression Garment](#what-is-a-compression-garment-page)
   - [Wear & Care](#wear-and-care-page)
   - [Tried & Tested](#tried-and-tested-page)
-    - Tried & Tested Entry form
-    - Form Confirmation
-- Future Features
-- Technologies Used(#technologies-used)
+- [Future Features](#features-left-to-implement)
+- [Technologies Used](#technologies-used)
 - Testing
 - Deployment
 - Credits
@@ -79,6 +76,16 @@ The fonts chosen for this project were 'Kavoon' for the headings (h1, h2 etc) an
 [Back to Contents](#contents)
 
 ### Colour Scheme
+The choices for the colour scheme were based on examination of other like purpose sites. The use of primary colours, particularly red was prominent in most of the sites that dealt with medical advice or patient advocacy. I was cautious about using any colours that are strongly associated with one medical condition over another in order to preserve an inclusive environment for any user - this site is not for a specific condition, just for a specific health aid.
+
+![Colormind Colour Chart](/assets/readme_images/bestCompressedColorScheme.jpg)
+
+
+To alter in some way from the norm but still maintain an air of familiarity, I chose variations of red and blue to accent the text elements. These colour choices were also checked using Adobe's Color Wheel webpage for suitability for those who suffer with colour blindness.
+
+
+![Adobe Color Blindness Accessibility Test](/assets/readme_images/colorBlindTestAdobe.jpg) 
+
 
 [Back to Contents](#contents)
 
@@ -86,7 +93,6 @@ The fonts chosen for this project were 'Kavoon' for the headings (h1, h2 etc) an
 
 # FEATURES
 ## Existing Features
-<!-- do yo u want to reference the specific project files that implement them? -->
 ## Home 
 
 ### Navigation Bar
@@ -102,10 +108,17 @@ The fonts chosen for this project were 'Kavoon' for the headings (h1, h2 etc) an
 
 [Back to Contents](#contents)
 
+### Sub-sections
+  -   The 3 columns of this section each contain a seperate image, a brief explanation of the topic matter and a link to the related page within the title of the subsection.
+
+[Back to Contents](#contents)
+
+
 ### Footer
    - Fixed at the bottom of the screen, the footer contains the constant Disclaimer relating to the content of the site  on the left hand side.
    - There are also 3 links to relatable social media for the site's content. These three platforms were chosen for their generally understood UI which will aid the cross generational divide. 
    - There is a 'Date Updated' information line to reflect the current nature of the information provided.
+   - This will be present on all pages and screen sizes.
 
 [Back to Contents](#contents)
 
@@ -117,39 +130,44 @@ The fonts chosen for this project were 'Kavoon' for the headings (h1, h2 etc) an
 [Back to Contents](#contents)
 
 ### Wear and Care page
-  - Inheriting the layout of the Landing Page, the information presented here is predominantly video based instruction videos for the main areas of consideration : the washing and upkeep of the garments themselves and the protection of the skin layer where appropriate. Each video will load with controls and muted for optimal user experience.
+  - Inheriting the layout of the Landing Page, the information in this section will be presented in 3 columns.
+  - The first column will contain an image and bullet points containing short 'daily' tips for wear and care of your garments and skin.
+  - Two of these columns will host externally sourced videos,  one video on washing and upkeep of compression garments and another on the protection of the skin layer. Each video will load with controls and muted for optimal user experience. Each video will also have as an addition, the disclaimer as posted by the original content creator.
   - The disclaimer for the intent of the site can be seen in the footer along with the social media icons.
 
 [Back to Contents](#contents)
 
 ### Tried and Tested page
   - The current format of this page similar in header and footer layout of its siblings.
-  - The main content on this page consists of a form box with name, email address and text box fields for contributing to the advice element of the site.
+  - One section on this page consists of a form box with name, email address and text box fields for contributing to the advice element of the site.
+  - The second section gives insight into the information desired in the text box field and also provides 3 external links to websites that specialise in medical conditions or situations that require the use of compression garments.
   - The disclaimer for the intent of the site can be seen in the footer along with the social media icons.
 
 [Back to Contents](#contents)
 
 ## Features Left to Implement
  
-This site was initially conceived as a public information resource with an option for adaptation depending on user feedback. Some of the features that are intended for the future without feedback are as follows
+This site was initially conceived as a public information resource with an option for adaptation depending on user feedback. Some of the features that are intended for the future without feedback are as follows:
  
-- Official Logo for use on site and as a watermark for other associated media
-- Advice board where collected tips will be displayed
-- Animation/Pop-up of disclaimer, negating the need for its placement in the text of the information section. 
-- Self produced media content: videos and photos to replace the externally sourced content 
-- possible link page to reputable sellers of accessories once self produced content is in place as current image licencing agreement makes this a conflict. 
+- Official Logo for use on site and as a watermark for other associated media.
+- Advice board where collected tips will be displayed.
+- Animation/Pop-up of disclaimer, ensuring that the information reaches the user. 
+- Self produced media content: videos and photos to replace all externally sourced content. 
+- A possible link page to reputable sellers of accessories once self produced content is in place as current image licencing agreement makes this a conflict. 
 
 [Back to Contents](#contents)
 
 ## Technologies Used
 
-In the creation of this project I have used the following
+In the creation of this project I have used the following:
 
 - Balsamiq to create the wireframes.
 - HTML5 to provide the content and structure for the website.
 - CSS to provide the styling.
 - Github to host and edit the website.
 - Gitpod to deploy the website.
+- Adobe color website to confirm assessibility of colours used.
+- Codegena to create a video embedding code generator.
 
 [Back to Contents](#contents)
 
@@ -165,7 +183,8 @@ In the building of the site, the major issues I had to deal with involved the fo
 
 [Back to Contents](#contents)
 
-- Column layout and image sizing to format
+- Column layout and sizing images to screen sizes.
+  - This is an area that I am still endeavouring to conquer. My aim of having a responsive website across 3 if not 4 different screen sizes centered around a 2 section construct within the main body of the page. The top section allowed for 2 seperate column areas that could be utilised for images, text or forms. This was done will little difficulty. However, the lower section proved to be somewhat elusive for me - I was not successful in my time constraint to find the correct syntax to generate the correct behaviour. This is something that I can correct but at present, I am required to stop my search for answers in order to ensure with the rest of the site's functionalilty.
   
 
 [Back to Contents](#contents)
