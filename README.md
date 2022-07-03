@@ -209,24 +209,45 @@ In the building of the site, the major issues I had to deal with involved the fo
       This was created in 2 parts: the first through a spelling error which was easily corrected and the second by removing an alt property tag that had been included on part of the homepage navigation icon.
 
     - what_is.html
+
       There was a loose div end as the only error for the HTML Validator. This was corrected promptly.
-      
+
+      ![what_isChecker](/assets/readme_images/what_isChecker.jpg)
+
     - wear_care.html
+
       This section had the most errors from all the HTML validator reports.
       Most of these seemed to be spelling errors rather than syntax. These were all corrected.
+
       ![Corrected](/assets/readme_images/wear_careCorrected.jpg)
+   
     - tried_tested.html
+
       The majority of the errors highlighted were corrected but there were 2 that are still unresolved.
       The submit button link created an error in this validator that I have not fully corrected. The link is still working and so I will continue to monitor the status of this error.
       The validator also highlighted what appeared to be a random end p tag but when the lines of code were explored, there didn't seem to be any open tags. Again, this will checked again.
+
       ![Phantom p](/assets/readme_images/tried_testedChecker.jpg)
 
     - tried_tested_ty_html
+
         ![Errors](/assets/readme_images/tried_tested_tyChecker.jpg)
+
         The article error was quickly resolved but the button error failed to return a viable correction. As the function required from the button is working and I found no other acceptable solution for the validator, I have chosen to leave it as it is for the present.
 
-CSS with (Jigsaw) validator
-Accessibility (lighthouse in dev tools)
+  - CSS with (Jigsaw) validator
+
+    ![W3C CSS Validator Results](/assets/readme_images/w3cValidatorCss.jpg)
+
+    While the W3C Validator has given this site the pass result, I am aware there are still some conflicts within the syntax. The result of this is seen more clearly below.
+
+  - Lighthouse Validator
+    The following images show the results from the Lighthouse Developer Tool based on desktop and mobile standards respectively.
+
+    ![Lighthouse Desktop](/assets/readme_images/lighthouseIndexScore.jpg)
+    
+    ![Lighthouse Mobile](/assets/readme_images/lighthouseIndexScoreMobile.jpg)
+    
 
 [Back to Contents](#contents)
 
@@ -245,7 +266,7 @@ Accessibility (lighthouse in dev tools)
 [Back to Contents](#contents)
 
 ## Deployment
-<!-- the description of how it was deployed to the hosting platform-->
+
 The site was deployed to Github pages using these steps:
   1.  Open the relevent repository in my Github account.
   2.  Navigate to the Github Pages tab via 'Settings'.
@@ -254,10 +275,19 @@ The site was deployed to Github pages using these steps:
 
 The live link can be found here -[Best Compressed](https://mjmcp.github.io/best-compressed/)
 
+To clone this Github repository, please follow these steps:
+  1. Open the target repository and click on the Code button located beside the Gitpod button.
+  2. From the drop down menu, select your preferred format (HTTPS/SSH/Github CLI)
+  3. Once selected, click on the double box symbol beside the address bar to copy your choice's URL
+  4. Open Git Bash.
+  5. Change the current working directory to the location where you want the cloned directory.
+  6. Type the words 'git clone' into the terminal window, and then paste the copied URL.
+  7. Press 'Enter' to complete the process and open the cloned repository.
+
+
 [Back to Contents](#contents)
 
 ## Credits
-<!-- REFERENCE ALL CONTENT, MEDIA AND EXTRA HELP SOURCES - TUTORIALS, PODCASTS, EVERYTHING -->
 
 ### Content
  - I used [Fontjoy](http://fontjoy.com) to check font combination visuals.
@@ -268,7 +298,6 @@ The live link can be found here -[Best Compressed](https://mjmcp.github.io/best-
     - [README suplied by CI](https://codeinstitute.s3.amazonaws.com/CSSEssentials/p1-readme.png) 
     - [README Wawas Wood](https://github.com/EwanColquhoun/wawaswoods/blob/master/README.md)
 
-<!-- include links to anything referenced, eg love running project--> 
 
 [Adobe Color Website](https://color.adobe.com/create/color-wheel) for assistance in creating a suitable color palete that was both pleasing to look at but assessible to those who are colorblind.
 
