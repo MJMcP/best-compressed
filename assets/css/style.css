@@ -100,7 +100,7 @@ em {
     clear: both;
     display: flex;
     flex-direction: row;
-    margin-bottom: 2rem;
+    margin: 2rem;
 }
 
 .hero {
@@ -117,7 +117,6 @@ em {
     clear: both;
     padding: 1rem;
     float: right;
-      
 }
     
 #introduction  a {
@@ -141,34 +140,51 @@ em {
 #container {
     clear: both;
     display: flex;
+    max-width: 1500px;
     flex-direction: row;   
-    margin-bottom: 2rem;
+    margin: 2rem;
 }
 
 #container h2{
     padding-top: 1rem;
 }
 
-/* Floating column for left column: */
-  .left-panel-heading, .right-panel-heading {
+.left-panel-heading, .right-panel-heading {
     clear: both;
     display: flex;
     flex-direction: column;
+    column-width: 33vw;
     margin-bottom: 2rem;
     margin: 2rem;
   }
 
-  /* Floating column for : 60% width */
-  .center-panel-heading {
-        clear: both;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 2rem;
-        margin: 2rem;
+.center-panel-heading {
+    clear: both;
+    display: flex;        
+    flex-direction: column;
+    column-width: 33vw;
+    margin-bottom: 2rem;       
+    margin: 2rem;
     }
-  
-  /* Clear floats after the columns */
-  .row:after {
+
+.left-panel, .right-panel {
+    clear: both;
+    display: flex;
+    flex-direction: column;        
+    margin-bottom: 2rem;
+    margin: 2rem;
+      }
+    
+.center-panel {
+    clear: both;
+    display: flex;                
+    flex-direction: column;
+    margin-bottom: 2rem;       
+    margin: 2rem;
+        }
+    
+
+.row:after {
     content: "";
     display: table;
     clear: both;
@@ -254,7 +270,7 @@ input[type=text], select, textarea{
   /* Floating column for labels: 15% width */
   .col-25 {
     float: left;
-    text-align: end;
+    text-align: start;
     width: 320px;
     margin-top: 6px;
   }
@@ -314,6 +330,7 @@ input[type=text], select, textarea{
   .form {
     display: flex;
     flex-direction: column;
+    padding: 1rem;
   }
 
 /*footer*/
@@ -374,8 +391,8 @@ footer {
 
 /* Media queries */
 
-/* For large to medium screen sizes from 1366px wide and down */
-@media screen and (max-width:1366px){
+/* For large to medium screen sizes from 1280px wide and down */
+@media screen and (max-width:1280px){
     
     #menu {
         clear: both;
@@ -426,7 +443,7 @@ footer {
         display: flex;
         flex-direction: row; 
         margin-bottom: 2rem;
-        margin: 2rem;
+
     }
 
     .col-25 {
@@ -448,8 +465,8 @@ footer {
 }
 
 
-/* For medium to smaller screens size from 800px wide and down */
-@media screen and (max-width: 800px) {
+/* For medium to smaller screens size from 768px wide and down */
+@media screen and (max-width: 768px) {
 
     #menu {
         clear: both;
@@ -523,7 +540,6 @@ footer {
         flex-direction: column;
         align-items: center; 
         margin-bottom: 2rem;
-        padding: 2rem;
     }
     
     .col-25 {
@@ -626,11 +642,19 @@ footer {
     
     .hero  {
         width: 100vw;
+        padding: 0;
     }
 
     img {
         max-width: 320px;
         padding: 0px;  
+    }
+
+    
+    .image-size {
+        height: auto;
+        padding: 0;
+        display: contents;
     }
 
     #introduction {
@@ -682,6 +706,13 @@ footer {
         align-content: center;
         justify-content: space-evenly;
     }    
+
+    .left-panel {
+        clear: both;
+        display: flex;
+        flex-direction: column;
+        max-width: fit-content;
+    }
 
     .col-25 {
         width: 100%;
