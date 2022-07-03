@@ -213,6 +213,10 @@ In the building of the site, the major issues I had to deal with involved the fo
     - wear_care.html
 
     - tried_tested.html
+      The majority of the errors highlighted were corrected but there were 2 that are still unresolved.
+      The submit button link created an error in this validator that I have not fully corrected. The link is still working and so I will continue to monitor the status of this error.
+      The validator also highlighted what appeared to be a random end p tag but when the lines of code were explored, there didn't seem to be any open tags. Again, this will checked again.
+      ![Phantom p](/assets/readme_images/tried_testedChecker.jpg)
 
     - tried_tested_ty_html
         ![Errors](/assets/readme_images/tried_tested_tyChecker.jpg)
