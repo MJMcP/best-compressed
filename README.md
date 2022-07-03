@@ -208,66 +208,73 @@ In the building of the site, the major issues I had to deal with involved the fo
 - Weak Design Elements
   - When I first designed the layout, I wanted to keep it clean and simplistic so that it didn't overwhelm the sensibilities of any of the users. However, the combination of 'Dela Gothic One' and 'Lora' proved to be less impactful that I thought. At the beginning of the testing phase, I was advised to rethink this approach and so the fonts "Kavoon" and "ABeeZee" were chosen to replace the original choices. 
 
+
 - Menu layout and presentation on smaller viewports
   - Due to the length of the text links, I added icons to the links that would become the navigation icons when the site is viewed on a smaller screen.  This was done by adding classes to target the text and icons seperately so they could be hidden or seen as needed. Attention was required for both margin and padding settings for the various size screens but the presentation is equal across the different screen sizes.
 
+
 - 'Return to Homepage' button with link to homepage
   - The main issue that I encountered with this button was the fact that I expected it to react as the Submit button did on the Tried and Tested page. After many attempts to rectify the possible link issue, I realised that I needed to treat the button layout like an imported image or icon. I used the button element and its attributes as an additional attribute of the a element that actively opens the homepage in the same browser window.
+
 
 - Video Embedding   
   - When I first attempted to insert a link for the youtube videos that I had selected, I was immediately shown an error message for where the video should appear. My first source of assistance was the Slack channels of CI where I searched for "embed youtube link into html". One member suggested the video embed generator created by Codegena but warned of issues may occur in validation later. I decided to use the generator for the moment as they work for MVP, I have not come across any major issues as of yet but I am aware that this may be an issue in the future. 
 
 [Back to Contents](#contents)
 
-### Validator Testing
+## Validator Testing
 
-  - HTML with W3C validator
+  ### HTML with W3C validator
     - index.html
-      First issue that was highlighted on all the pages was the labeling error that was within the navigation bar. 
+
+    First issue that was highlighted on all the pages was the labeling error that was within the navigation bar. 
     
-      ![Error Code 1 and 2](assets/readme_images/htmlValidatorIndexPg.jpg)
+  ![Error Code 1 and 2](assets/readme_images/htmlValidatorIndexPg.jpg)
     
-      This was created in 2 parts: the first through a spelling error which was easily corrected and the second by removing an alt property tag that had been included on part of the homepage navigation icon.
+    This was created in 2 parts: the first through a spelling error which was easily corrected and the second by removing an alt property tag that had been included on part of the homepage navigation icon.
 
     - what_is.html
 
-      There was a loose div end as the only error for the HTML Validator. This was corrected promptly.
-
-      ![what_isChecker](/assets/readme_images/what_isChecker.jpg)
+    There was a loose div end as the only error for the HTML Validator. This was corrected promptly.
+   
+  ![what_isChecker](/assets/readme_images/what_isChecker.jpg)
 
     - wear_care.html
 
-      This section had the most errors from all the HTML validator reports.
-      Most of these seemed to be spelling errors rather than syntax. These were all corrected.
+    This section had the most errors from all the HTML validator reports.
+    Most of these seemed to be spelling errors rather than syntax. These were all corrected.
 
-      ![Corrected](/assets/readme_images/wear_careCorrected.jpg)
+  ![Corrected](/assets/readme_images/wear_careCorrected.jpg)
    
-    - tried_tested.html
+    - tried_tested.html     
+    
+    The majority of the errors highlighted were corrected but there were 2 that are still unresolved.
+    The submit button link created an error in this validator that I have not fully corrected. The link is still working and so I will continue to monitor the status of this error.
+    The validator also highlighted what appeared to be a random end p tag but when the lines of code were explored, there didn't seem to be any open tags. Again, this will checked again.
 
-      The majority of the errors highlighted were corrected but there were 2 that are still unresolved.
-      The submit button link created an error in this validator that I have not fully corrected. The link is still working and so I will continue to monitor the status of this error.
-      The validator also highlighted what appeared to be a random end p tag but when the lines of code were explored, there didn't seem to be any open tags. Again, this will checked again.
-
-      ![Phantom p](/assets/readme_images/tried_testedChecker.jpg)
+  ![Phantom p](/assets/readme_images/tried_testedChecker.jpg)
 
     - tried_tested_ty_html
 
-        ![Errors](/assets/readme_images/tried_tested_tyChecker.jpg)
+  ![Errors](/assets/readme_images/tried_tested_tyChecker.jpg)
 
-        The article error was quickly resolved but the button error failed to return a viable correction. As the function required from the button is working and I found no other acceptable solution for the validator, I have chosen to leave it as it is for the present.
+    The article error was quickly resolved but the button error failed to return a viable correction. As the function required from the button is working and I found no other acceptable solution for the validator, I have chosen to leave it as it is for the present.
 
-  - CSS with (Jigsaw) validator
+  ### CSS with (Jigsaw) validator
 
-    ![W3C CSS Validator Results](/assets/readme_images/w3cValidatorCss.jpg)
+  ![W3C CSS Validator Results](/assets/readme_images/w3cValidatorCss.jpg)
 
     While the W3C Validator has given this site the pass result, I am aware there are still some conflicts within the syntax. The result of this is seen more clearly below.
 
-  - Lighthouse Validator
+  ### Lighthouse Validator
+  
     The following images show the results from the Lighthouse Developer Tool based on desktop and mobile standards respectively.
 
-    ![Lighthouse Desktop](/assets/readme_images/lighthouseIndexScore.jpg)
-    
-    ![Lighthouse Mobile](/assets/readme_images/lighthouseIndexScoreMobile.jpg)
+  ![Lighthouse Desktop 1260 Result ](/assets/readme_images/lighthouseIndexScore.jpg)
+
+    Measuring the criteria of Performance, Accessibility, Best Practice and SEO, the results have varied depending on the screensize that the site was assessed through. Part of the issues highlighted include the lack of defined dimensions for the images within the site. Due to the aforementioned issues with column formatting, some of the original measurements have been removed in an attempt to rectify the issue. 
+
+  ![Lighthouse Mobile 320 Result](/assets/readme_images/lighthouseIndexScoreMobile.jpg)
     
 
 [Back to Contents](#contents)
