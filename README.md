@@ -4,7 +4,7 @@ The Best Compressed website is a public information website that provides advice
 
 The live site can be accessed through this [link](https://mjmcp.github.io/best-compressed/index.html).
 
-![Ui.dev screenshot](/assets/readme_images/responsiveImage.jpg) 
+![Ui.dev Responsiveness screenshot](/assets/readme_images/responsiveImage.jpg) 
 
 
 # Contents
@@ -26,12 +26,14 @@ The live site can be accessed through this [link](https://mjmcp.github.io/best-c
   - [Tried & Tested](#tried-and-tested-page)
 - [Future Features](#features-left-to-implement)
 - [Technologies Used](#technologies-used)
-- Testing
-- Deployment
-- Credits
-  - Content
-  - Media
-- Acknowledgements
+- [Testing](#testing)
+    - [Validator Testing](#validator-testing)
+    - [Unfixed Bugs](#unfixed-bugs)
+- [Deployment](#deployment)
+- [Credits](#credits)
+  - [Content](#content)
+  - [Media](#media)
+- [Acknowledgements](#acknowledgements)
 
 # User Experience UX
 
@@ -89,27 +91,39 @@ To alter in some way from the norm but still maintain an air of familiarity, I c
 
 [Back to Contents](#contents)
 
-<!--OVERVIEW OF PROJECT the image of the project on multiple devices can go here -->
-
 # FEATURES
 ## Existing Features
 ## Home 
 
 ### Navigation Bar
-  - Situated at the top of the page, the page logo 'BEST COMPRESSED' is shown on the left hand side with the page menu located on the right, listing this HOME page as well as 3 addional pages. Each page is assigned an icon as a visual aid. 
+
+![logo](/assets/readme_images/logo.jpg)
+
+  - Situated at the top of the page, the page logo 'BEST COMPRESSED' is shown on the left hand side with the page menu located on the right, listing this HOME page as well as 3 addional pages. Each page is assigned an icon as a visual aid and will have an 'active' line beneath each link as its appropriate page is visited. 
+
+![wide nav bar](/assets/readme_images/navbar01.jpg)
+
   - Once the site adapts for smaller screen sizes, the page logo will relocate to the center of screen with the menu options underneath it. Due to the length of some of the link names, the icons will be used instead of text when the site adapts. 
+
+![mobile nav bar](/assets/readme_images/navbar02.jpg)
+
 
 [Back to Contents](#contents)
 
 ### Introduction
   -   This is a general introduction to the ethos of the site and its aims going forward.
   There is also a content disclaimer which reminds the user that the information here is a general guide and that the best advice comes from those trained and who have full knowledge of their individual situation. A repetition of this will appear in the footer of each page.
-  - The 3 columns below the general information section will provide a image link and brief description to the additional pages purpose.
+
+ ![hero section](/assets/readme_images/heroSection.jpg)
+
 
 [Back to Contents](#contents)
 
 ### Sub-sections
   -   The 3 columns of this section each contain a seperate image, a brief explanation of the topic matter and a link to the related page within the title of the subsection.
+
+  ![3 Column section from Wear and Care Page](/assets/readme_images/Wear_Care3Column.jpg)
+
 
 [Back to Contents](#contents)
 
@@ -132,7 +146,8 @@ To alter in some way from the norm but still maintain an air of familiarity, I c
 ### Wear and Care page
   - Inheriting the layout of the Landing Page, the information in this section will be presented in 3 columns.
   - The first column will contain an image and bullet points containing short 'daily' tips for wear and care of your garments and skin.
-  - Two of these columns will host externally sourced videos,  one video on washing and upkeep of compression garments and another on the protection of the skin layer. Each video will load with controls and muted for optimal user experience. Each video will also have as an addition, the disclaimer as posted by the original content creator.
+  - Two of these columns will host externally sourced videos,  one video on washing and upkeep of compression garments and another on the protection of the skin layer. 
+  - Each video will load with controls and muted for optimal user experience. Each video will also have as an addition, the disclaimer as posted by the original content creator.
   - The disclaimer for the intent of the site can be seen in the footer along with the social media icons.
 
 [Back to Contents](#contents)
@@ -140,8 +155,23 @@ To alter in some way from the norm but still maintain an air of familiarity, I c
 ### Tried and Tested page
   - The current format of this page similar in header and footer layout of its siblings.
   - One section on this page consists of a form box with name, email address and text box fields for contributing to the advice element of the site.
+  - The fields are all required once data has been entered into them or the submit button is turned on.
+  - The submit button has been styled to react to any pointer hovers and when it is clicked.
   - The second section gives insight into the information desired in the text box field and also provides 3 external links to websites that specialise in medical conditions or situations that require the use of compression garments.
   - The disclaimer for the intent of the site can be seen in the footer along with the social media icons.
+
+  ![Advice Form Page](/assets/readme_images/formPage.jpg)
+
+[Back to Contents](#contents)
+
+### Tried and Tested Thank You Page
+  - Once the form has been filled and the submit button actived, the action will bring you to this page with a brief thank you message and reiteration of the promise of an advice page.
+
+  ![thank you page](/assets/readme_images/thankyoupage.jpg)
+
+  - There are no 'active' markers on the navigation bar by design.
+  - The call to action button in the middle of the page with return you to the homepage within the current open browser window.
+  The disclaimer for the intent of the site as well as the social media icons, can be seen in the footer.
 
 [Back to Contents](#contents)
 
@@ -173,25 +203,16 @@ In the creation of this project I have used the following:
 
 ## Testing
 
-<!-- go over all the projects features, what they were supposed to do and how they have worked.
-how does the project look in the different browsers and screen sizes
-mention any issues you have had - interesting bugs -->
 In the building of the site, the major issues I had to deal with involved the following :
 
 - Weak Design Elements
   - When I first designed the layout, I wanted to keep it clean and simplistic so that it didn't overwhelm the sensibilities of any of the users. However, the combination of 'Dela Gothic One' and 'Lora' proved to be less impactful that I thought. At the beginning of the testing phase, I was advised to rethink this approach and so the fonts "Kavoon" and "ABeeZee" were chosen to replace the original choices. 
 
-[Back to Contents](#contents)
-
 - Menu layout and presentation on smaller viewports
   - Due to the length of the text links, I added icons to the links that would become the navigation icons when the site is viewed on a smaller screen.  This was done by adding classes to target the text and icons seperately so they could be hidden or seen as needed. Attention was required for both margin and padding settings for the various size screens but the presentation is equal across the different screen sizes.
 
-[Back to Contents](#contents)
-
 - 'Return to Homepage' button with link to homepage
   - The main issue that I encountered with this button was the fact that I expected it to react as the Submit button did on the Tried and Tested page. After many attempts to rectify the possible link issue, I realised that I needed to treat the button layout like an imported image or icon. I used the button element and its attributes as an additional attribute of the a element that actively opens the homepage in the same browser window.
-
-[Back to Contents](#contents)
 
 - Video Embedding   
   - When I first attempted to insert a link for the youtube videos that I had selected, I was immediately shown an error message for where the video should appear. My first source of assistance was the Slack channels of CI where I searched for "embed youtube link into html". One member suggested the video embed generator created by Codegena but warned of issues may occur in validation later. I decided to use the generator for the moment as they work for MVP, I have not come across any major issues as of yet but I am aware that this may be an issue in the future. 
@@ -199,7 +220,7 @@ In the building of the site, the major issues I had to deal with involved the fo
 [Back to Contents](#contents)
 
 ### Validator Testing
-<!-- the reports back from these validators -->
+
   - HTML with W3C validator
     - index.html
       First issue that was highlighted on all the pages was the labeling error that was within the navigation bar. 
@@ -255,8 +276,6 @@ In the building of the site, the major issues I had to deal with involved the fo
 
 - Column layout and sizing images to screen sizes.
   - This is an area that I am still endeavouring to conquer. My aim of having a responsive website across 3 if not 4 different screen sizes centered around a 2 section construct within the main body of the page. The top section allowed for 2 seperate column areas that could be utilised for images, text or forms. This was done will little difficulty. However, the lower section proved to be somewhat elusive for me - I was not successful in my time constraint to find the correct syntax to generate the correct behaviour. This is something that I can correct but at present, I am required to stop my search for answers in order to ensure with the rest of the site's functionalilty.
-
-[Back to Contents](#contents)
 
 - Form Format   
   - The coding for a basic form layout was readily available in various locations so I implemented the form values from the w3school website to create my version. While I have found it to be easily responsive to the smaller screen sizes, I have not been able to successfully identify the syntax I need to evenly space the form element beside the additional text on the same page.
