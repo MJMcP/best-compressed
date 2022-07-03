@@ -202,18 +202,19 @@ In the building of the site, the major issues I had to deal with involved the fo
 <!-- the reports back from these validators -->
   - HTML with W3C validator
     - index.html
-    First issue that was highlighted on all the pages was the labeling error that was within the navigation bar. 
+      First issue that was highlighted on all the pages was the labeling error that was within the navigation bar. 
     
-    ![Error Code 1 and 2](assets/readme_images/htmlValidatorIndexPg.jpg)
+      ![Error Code 1 and 2](assets/readme_images/htmlValidatorIndexPg.jpg)
     
-    This was created in 2 parts: the first through a spelling error which was easily corrected and the second by removing an alt property tag that had been included on part of the homepage navigation icon.
+      This was created in 2 parts: the first through a spelling error which was easily corrected and the second by removing an alt property tag that had been included on part of the homepage navigation icon.
 
     - what_is.html
-
+      There was a loose div end as the only error for the HTML Validator. This was corrected promptly.
+      
     - wear_care.html
       This section had the most errors from all the HTML validator reports.
-      Most of these seemed to be spelling errors rather than syntax. These were corrected.
-
+      Most of these seemed to be spelling errors rather than syntax. These were all corrected.
+      ![Corrected](/assets/readme_images/wear_careCorrected.jpg)
     - tried_tested.html
       The majority of the errors highlighted were corrected but there were 2 that are still unresolved.
       The submit button link created an error in this validator that I have not fully corrected. The link is still working and so I will continue to monitor the status of this error.
