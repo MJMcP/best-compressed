@@ -183,12 +183,6 @@ In the building of the site, the major issues I had to deal with involved the fo
 
 [Back to Contents](#contents)
 
-- Column layout and sizing images to screen sizes.
-  - This is an area that I am still endeavouring to conquer. My aim of having a responsive website across 3 if not 4 different screen sizes centered around a 2 section construct within the main body of the page. The top section allowed for 2 seperate column areas that could be utilised for images, text or forms. This was done will little difficulty. However, the lower section proved to be somewhat elusive for me - I was not successful in my time constraint to find the correct syntax to generate the correct behaviour. This is something that I can correct but at present, I am required to stop my search for answers in order to ensure with the rest of the site's functionalilty.
-  
-
-[Back to Contents](#contents)
-
 - Menu layout and presentation on smaller viewports
   - Due to the length of the text links, I added icons to the links that would become the navigation icons when the site is viewed on a smaller screen.  This was done by adding classes to target the text and icons seperately so they could be hidden or seen as needed. Attention was required for both margin and padding settings for the various size screens but the presentation is equal across the different screen sizes.
 
@@ -201,13 +195,6 @@ In the building of the site, the major issues I had to deal with involved the fo
 
 - Video Embedding   
   - When I first attempted to insert a link for the youtube videos that I had selected, I was immediately shown an error message for where the video should appear. My first source of assistance was the Slack channels of CI where I searched for "embed youtube link into html". One member suggested the video embed generator created by Codegena but warned of issues may occur in validation later. I decided to use the generator for the moment as they work for MVP, I have not come across any major issues as of yet but I am aware that this may be an issue in the future. 
-
-[Back to Contents](#contents)
-
-- Form Format   
-  - The coding for a basic form layout was readily available in various locations so I implemented the form values from the w3school website to create my version. While I have found it to be easily responsive to the smaller screen sizes, I have not been able to successfully identify the syntax I need to evenly space the form element beside the additional text on the same page.
-  
-![Screengrab of form layout on large screen](/assets/readme_images/formIssue01.jpg)
 
 [Back to Contents](#contents)
 
@@ -226,8 +213,16 @@ Accessibility (lighthouse in dev tools)
 [Back to Contents](#contents)
 
 ### Unfixed Bugs
-footer alignment on smaller screens
-menu alignement on smaller screens
+
+- Column layout and sizing images to screen sizes.
+  - This is an area that I am still endeavouring to conquer. My aim of having a responsive website across 3 if not 4 different screen sizes centered around a 2 section construct within the main body of the page. The top section allowed for 2 seperate column areas that could be utilised for images, text or forms. This was done will little difficulty. However, the lower section proved to be somewhat elusive for me - I was not successful in my time constraint to find the correct syntax to generate the correct behaviour. This is something that I can correct but at present, I am required to stop my search for answers in order to ensure with the rest of the site's functionalilty.
+
+[Back to Contents](#contents)
+
+- Form Format   
+  - The coding for a basic form layout was readily available in various locations so I implemented the form values from the w3school website to create my version. While I have found it to be easily responsive to the smaller screen sizes, I have not been able to successfully identify the syntax I need to evenly space the form element beside the additional text on the same page.
+  
+![Screengrab of form layout on large screen](/assets/readme_images/formIssue01.jpg)
 
 [Back to Contents](#contents)
 
