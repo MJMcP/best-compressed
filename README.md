@@ -275,7 +275,31 @@ In the building of the site, the major issues I had to deal with involved the fo
     Measuring the criteria of Performance, Accessibility, Best Practice and SEO, the results have varied depending on the screensize that the site was assessed through. Part of the issues highlighted include the lack of defined dimensions for the images within the site. Due to the aforementioned issues with column formatting, some of the original measurements have been removed in an attempt to rectify the issue. 
 
   ![Lighthouse Mobile 320 Result](/assets/readme_images/lighthouseIndexScoreMobile.jpg)
-    
+  
+
+  ### Testing User Stories
+  
+  1. As a user, I can find the information I seek quickly.
+      - The index/landing page has clear labels for the different sections and a descriptive text to assist in guidance.
+      - The font is crisp and easy to read. 
+
+  2. As a user, I can understand the information as it is presented to me.
+      - The information is written in an informal but polite language.
+      - The definition of catagories is clearly marked.
+  
+  3. As a user, I can clearly make out the links to each page.
+      - The links in the navigation bar are both text and icon for the desktop sites.
+      - The icons have been chosen to be intuitive in their meaning.
+      - The alt text has been clearly labelled for the screenreader.
+
+  4. As a user, I can understand the information in the videos.
+      - Each video is clear in visuals and audio.
+      - Each video presents the information in a clear but precise manner.
+      - Each video narrator speaks in a clear voice and uses a common vernacular.
+
+  5. As a user, I can leave a message through a provided portal.
+      - The form provided allows for the creation of a message.
+      - The links to the social media sites also facilitate the possibility of communication.
 
 [Back to Contents](#contents)
 
